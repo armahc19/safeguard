@@ -16,6 +16,7 @@ from app.api.routes import (
     intelligence_layers,
     intervention,
     liveness,
+    momo_sandbox,
     network,
     numbers,
     partners,
@@ -50,4 +51,5 @@ api_router.include_router(liveness.router)
 api_router.include_router(intervention.router)
 api_router.include_router(shield.router)
 api_router.include_router(transactions.router)
+api_router.include_router(momo_sandbox.router)
 api_router.include_router(admin.router)

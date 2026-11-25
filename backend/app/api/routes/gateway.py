@@ -108,6 +108,31 @@ def _voice_help_followup(intent: str, message: str, history: list,
     return None
 
 
+def _voice_momo_intent(message: str, history: list) -> str | None:
+    turns = [str(item.text) for item in history if item.role == "user"] + [message]
+    for text in reversed(turns):
+        value = text.casefold()
+        if re.search(r"\b(check|see|view|what(?:'s| is))\b.{0,40}\b(balance|balances)\b|\b(my|wallet) balance\b", value):
+            return "balance"
+        if re.search(r"\b(received|incoming|came in|come in)\b.{0,40}\b(money|payment|transfer)\b|\b(check|show)\b.{0,30}\breceived\b", value):
+            return "received"
+        if re.search(r"\b(send|transfer|pay)\b.{0,35}\b(money|cedis|gh[₵c]|someone|friend|number)\b|\bi want to send\b", value):
+            return "send"
+    return None
+
+
+def _voice_momo_amount(turns: list[str]) -> str | None:
+    for text in reversed(turns):
+        value = re.sub(r"(?<!\d)(?:\+?233|0)(?:[\s().-]*\d){9}(?!\d)", " ", text)
+        match = re.search(r"(?:gh\s*[₵c]|ghs|cedis?)\s*(\d{1,5}(?:\.\d{1,2})?)|"
+                          r"\b(\d{1,5}(?:\.\d{1,2})?)\s*(?:cedis?|ghs)\b", value, re.I)
+        if match:
+            return next(group for group in match.groups() if group)
+        if re.fullmatch(r"\s*\d{1,5}(?:\.\d{1,2})?\s*", value):
+            return value.strip()
+    return None
+
+
 @router.post("/voice/transcribe")
 async def transcribe_gateway_voice(
     request: Request, gateway: GatewayDep, db: DbDep, settings: SettingsDep,
@@ -221,6 +246,76 @@ async def gateway_voice_turn(
         persist_message_to_fir=False,
         persist_case=memory_enabled,
     )
+    momo_intent = _voice_momo_intent(body.message, body.history)
+    if momo_intent:
+        from app.services.momo_sandbox import momo_sandbox
+        if settings.environment not in {"development", "test"}:
+            return {"reply": "MoMo sandbox tasks are available only in the development demo.",
+                    "intent": momo_intent, "simulated": True,
+                    "memory_enabled": memory_enabled, "privacy_notice": result.privacy_notice}
+        if momo_intent == "balance":
+            balance = await momo_sandbox.balance(user.phone)
+            return {"reply": f"Your simulated sandbox balance is GH₵{balance['balance']}. This is test data, not your real wallet balance.",
+                    "intent": momo_intent, "simulated": True,
+                    "memory_enabled": memory_enabled, "privacy_notice": result.privacy_notice}
+        if momo_intent == "received":
+            received = await momo_sandbox.received(user.phone)
+            items = received["items"]
+            if not items:
+                reply = "There are no simulated incoming payments in this sandbox wallet."
+            else:
+                latest = items[0]
+                reply = (f"The latest simulated payment received was GH₵{latest['amount']} from "
+                         f"{latest['sender'][-4:]}, status {latest['status']}. This is sandbox test data.")
+            return {"reply": reply, "intent": momo_intent, "simulated": True,
+                    "transactions": items, "memory_enabled": memory_enabled,
+                    "privacy_notice": result.privacy_notice}
+
+        recent_users = [item.text for item in body.history if item.role == "user"] + [body.message]
+        affirmative = bool(re.fullmatch(r"\s*(yes|yes confirm|confirm|go ahead|do it)\s*[.!]?\s*", body.message, re.I))
+        negative = bool(re.fullmatch(r"\s*(no|cancel|stop)\s*[.!]?\s*", body.message, re.I))
+        awaiting_confirmation = any(item.role == "assistant" and "confirm" in item.text.casefold()
+                                    for item in body.history)
+        if negative and awaiting_confirmation:
+            await momo_sandbox.cancel_transfer(user.phone)
+            return {"reply": "Okay, I cancelled the simulated transfer. No sandbox money was moved.",
+                    "intent": momo_intent, "simulated": True,
+                    "memory_enabled": memory_enabled, "privacy_notice": result.privacy_notice}
+        if affirmative and awaiting_confirmation:
+            try:
+                transfer = await momo_sandbox.confirm_transfer(user.phone)
+            except ValueError as exc:
+                return {"reply": f"I couldn’t complete the simulated transfer: {exc}",
+                        "intent": momo_intent, "simulated": True,
+                        "memory_enabled": memory_enabled, "privacy_notice": result.privacy_notice}
+            return {"reply": (f"Simulated transfer complete: GH₵{transfer['amount']} to a number ending "
+                               f"{transfer['recipient'][-4:]}. Reference {transfer['reference']}. "
+                               "This was sandbox-only; no real money moved."),
+                    "intent": momo_intent, "simulated": True, "transfer": transfer,
+                    "memory_enabled": memory_enabled, "privacy_notice": result.privacy_notice}
+        recipients = list(dict.fromkeys(
+            number for text in recent_users for number in _voice_phone_candidates(text, settings.default_calling_code)
+            if number != user.phone
+        ))
+        if not recipients:
+            reply = "Who would you like to send simulated money to? Please say their full Ghana mobile number."
+        elif len(recipients) > 1:
+            reply = "I heard more than one recipient number. Please provide just one Ghana number for the simulated transfer."
+        else:
+            amount = _voice_momo_amount(recent_users)
+            if amount is None:
+                reply = "How much would you like to send in Ghana cedis? You can say an amount such as 50 cedis."
+            else:
+                try:
+                    staged = await momo_sandbox.stage_transfer(user.phone, recipients[0], amount)
+                    reply = (f"This is only a simulation. You asked to send GH₵{staged['amount']} to a number ending "
+                             f"{staged['recipient'][-4:]}. Say ‘yes, confirm’ to simulate it, or ‘cancel’. "
+                             "Never say your MoMo PIN aloud.")
+                except ValueError as exc:
+                    reply = f"I can’t prepare that simulated transfer: {exc}"
+        return {"reply": reply, "intent": momo_intent, "simulated": True,
+                "memory_enabled": memory_enabled, "privacy_notice": result.privacy_notice}
+
     help_intent = _voice_help_intent(body.message, body.history, settings.default_calling_code)
     if help_intent:
         followup = _voice_help_followup(

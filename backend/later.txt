@@ -1,0 +1,6 @@
+user -> clicks call safegraud -> listen ...(users speaks) -> (speech to text) -> text send to backend call agent (gradio) -> replies -> text to speech -> user listens
+
+
+Something that picks up on stress in the caller's voice, because scammers push hard and it shows.
+
+hat usually means a local language at launch (Twi, Ga, Ewe or Pidgin are common picks), but more importantly it means the flow, the words, and the assumptions match how people here actually transact. You need the build to make adding languages easy, a flick of a switch, not a rebuild.

@@ -985,7 +985,7 @@ async function setLiteVoiceMemory(enabled) {
 }
 function startLiteVoiceChat() {
   state.liteStep = 'voice_chat';
-  state.voiceMessages = [{ role: 'assistant', text: 'Welcome to SafeGuard Voice. What would you like help with?' }];
+  state.voiceMessages = [{ role: 'assistant', text: 'Welcome to SafeGuard Voice. You can ask me to check a number, report a scam, check a suspicious SMS, get safety advice, or review your reports. You can also check a simulated balance, see simulated money received, or try a simulated send. MoMo actions use test data only; no real money moves. What would you like to do?' }];
   state.voiceStatus = 'Speak or type a message. Check the transcript before sending.';
   $('#lite-action-title').textContent = 'SafeGuard Voice · simulated conversation';
   $('#lite-input').disabled = false;
