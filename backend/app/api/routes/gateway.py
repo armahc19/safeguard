@@ -63,6 +63,51 @@ def _voice_phone_candidates(text: str, default_calling_code: str) -> list[str]:
     return normalized
 
 
+def _voice_help_intent(message: str, history: list, default_calling_code: str) -> str | None:
+    """Recover the active SafeGuard-help task across short voice turns."""
+    turns = [str(item.text) for item in history if item.role == "user"] + [message]
+    for text in reversed(turns):
+        value = text.casefold()
+        if re.search(r"\b(report|send)\b.{0,30}\b(suspicious\s+)?sms\b|\bsuspicious\s+text\b", value):
+            return "suspicious_sms"
+        if re.search(r"\b(report|file|make)\b.{0,30}\b(scam|fraud)\s+report\b|\breport\s+(a\s+)?scam\b", value):
+            return "report_scam"
+        if re.search(r"\b(my\s+)?(past\s+)?reports\b|\bcheck\s+(my\s+)?reports\b", value):
+            return "my_reports"
+        if re.search(r"\b(safety\s+advice|fraud\s+advice|scam\s+advice|how\s+do\s+i\s+stay\s+safe)\b", value):
+            return "safety_advice"
+        if re.search(r"\b(check|look\s+up|search)\b.{0,24}\b(number|phone)\b|\bwho\s+is\s+calling\b", value):
+            return "check_number"
+        if _voice_phone_candidates(text, default_calling_code) and re.search(r"\b(check|look\s+up|search)\b", value):
+            return "check_number"
+        if _voice_phone_candidates(text, default_calling_code) and any(
+            re.search(r"\b(check|look\s+up|search)\b.{0,24}\b(number|phone)\b", prior, re.I)
+            for prior in turns[:turns.index(text)]
+        ):
+            return "check_number"
+    return None
+
+
+def _voice_help_followup(intent: str, message: str, history: list,
+                         default_calling_code: str) -> str | None:
+    """Ask for the next required detail, or signal that the task can run."""
+    if intent == "check_number":
+        if not _voice_phone_candidates(message, default_calling_code):
+            if re.search(r"(?<!\d)(?:\+?233|0)(?:[\s().-]*\d){6,8}(?!\d)", message):
+                return "That number looks incomplete. Please say the full Ghana number: 10 digits starting with 0, or 12 digits starting with 233."
+            return "Sure. What Ghana phone number would you like me to check? Please say all 10 digits."
+        return None
+    if intent == "report_scam":
+        if len(message.strip()) < 10 or re.fullmatch(r"\s*(report|a scam|report a scam|scam)\s*", message, re.I):
+            return "Tell me what happened, including any number involved and how money or information was requested. I’ll submit it for review."
+        return None
+    if intent == "suspicious_sms":
+        if len(message.strip()) < 8 or re.fullmatch(r"\s*(report|suspicious sms|report suspicious sms|sms)\s*", message, re.I):
+            return "Please read or paste the suspicious text message. I’ll check it for warning signs."
+        return None
+    return None
+
+
 @router.post("/voice/transcribe")
 async def transcribe_gateway_voice(
     request: Request, gateway: GatewayDep, db: DbDep, settings: SettingsDep,
@@ -176,6 +221,65 @@ async def gateway_voice_turn(
         persist_message_to_fir=False,
         persist_case=memory_enabled,
     )
+    help_intent = _voice_help_intent(body.message, body.history, settings.default_calling_code)
+    if help_intent:
+        followup = _voice_help_followup(
+            help_intent, body.message, body.history, settings.default_calling_code,
+        )
+        if followup:
+            return {"reply": followup, "intent": help_intent,
+                    "memory_enabled": memory_enabled, "case_id": str(result.case_id) if memory_enabled else None,
+                    "privacy_notice": result.privacy_notice}
+        if help_intent == "check_number":
+            number = _voice_phone_candidates(body.message, settings.default_calling_code)[0]
+            lookup = await fraud.lookup(user, number, case_id=case_id, channel=CommunicationChannel.CALL)
+            if lookup.verified_reports or lookup.pending_reports:
+                reply = (f"SafeGuard has {lookup.verified_reports} reviewed and {lookup.pending_reports} pending "
+                         f"report(s) for that number. Reports are not proof of guilt. {lookup.advice}")
+            else:
+                reply = ("SafeGuard has no recorded reports for that number. That does not guarantee it is safe. "
+                         "Verify who you are dealing with before sharing money or information.")
+            return {"reply": reply, "intent": help_intent, "risk_level": lookup.risk_level.value,
+                    "memory_enabled": memory_enabled, "case_id": str(result.case_id) if memory_enabled else None,
+                    "privacy_notice": result.privacy_notice}
+        if help_intent == "report_scam":
+            from app.enums import ReportType
+            number_candidates = _voice_phone_candidates(body.message, settings.default_calling_code)
+            submitted = await gateway_report(
+                GatewayReport(msisdn=body.msisdn, number=number_candidates[0] if len(number_candidates) == 1 else None,
+                              report_type=ReportType.OTHER, description=body.message),
+                gateway, db, settings, fraud,
+            )
+            return {"reply": f"Your report was received for review. Reference {str(submitted.report_id)[:8]}.",
+                    "intent": help_intent, "memory_enabled": memory_enabled,
+                    "case_id": str(result.case_id) if memory_enabled else None,
+                    "privacy_notice": result.privacy_notice}
+        if help_intent == "suspicious_sms":
+            analysis = await gateway_shield(
+                GatewayShieldRequest(msisdn=body.msisdn, text=body.message),
+                gateway, db, settings,
+            )
+            return {"reply": f"This message is rated {analysis.risk_level.value}. {analysis.explanation} "
+                              f"{analysis.intervention.message}",
+                    "intent": help_intent, "risk_level": analysis.risk_level.value,
+                    "memory_enabled": memory_enabled, "case_id": str(result.case_id) if memory_enabled else None,
+                    "privacy_notice": result.privacy_notice}
+        if help_intent == "safety_advice":
+            return {"reply": "Never share your MoMo PIN or OTP. Pause if someone pressures you to send money. "
+                              "Verify requests through your provider’s official channel.",
+                    "intent": help_intent, "memory_enabled": memory_enabled,
+                    "case_id": str(result.case_id) if memory_enabled else None,
+                    "privacy_notice": result.privacy_notice}
+        if help_intent == "my_reports":
+            reports = await gateway_report_history(body.msisdn, gateway, db, settings)
+            summary = ("You have no reports on this account." if not reports else
+                       "Your recent reports: " + "; ".join(
+                           f"{item.title}, {item.status.replace('_', ' ')}" for item in reports[:5]
+                       ))
+            return {"reply": summary, "intent": help_intent,
+                    "memory_enabled": memory_enabled, "case_id": str(result.case_id) if memory_enabled else None,
+                    "privacy_notice": result.privacy_notice}
+
     from app.services.awareness_gradio import create_gradio_client, generate_voice_reply
     api_key = settings.groq_api_key.get_secret_value() if settings.groq_api_key else None
     client = create_gradio_client(api_key, timeout=20.0)
