@@ -1,0 +1,1154 @@
+[
+  {
+    "record_id": "SYN-013318",
+    "target_label": "FP001",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No refund, overpayment, bounced transfer or fabricated credit language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-000434",
+    "target_label": "FP001",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Please, this is Jnr Adjei. Your last transfer bounced and GHS 400 is waiting to be returned.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-001113",
+    "target_label": "FP001",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Please, this is Nkrumah Fosu. Your last transfer bounced and GHS 500 is waiting to be returned.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-007513",
+    "target_label": "FP001",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No refund, overpayment, bounced transfer or fabricated credit language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-001014",
+    "target_label": "FP001",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, calling about a failed transaction. You are due a refund of GHS 5000. Can we process it now?",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-001136",
+    "target_label": "FP001",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Please, this is Adjei Boakye. Your last transfer bounced and GHS 300 is waiting to be returned.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-000305",
+    "target_label": "FP001",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Kofi Opoku from Glo customer care. We have a pending refund of GHS 750 on your mobile money wallet.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-000823",
+    "target_label": "FP001",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, AirtelTigo here. Our system shows an overpayment of GHS 1500 that needs to be credited back to you.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-015813",
+    "target_label": "FP001",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No refund, overpayment, bounced transfer or fabricated credit language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-014653",
+    "target_label": "FP001",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No refund, overpayment, bounced transfer or fabricated credit language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-010777",
+    "target_label": "FP001",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No refund, overpayment, bounced transfer or fabricated credit language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-014789",
+    "target_label": "FP001",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No refund, overpayment, bounced transfer or fabricated credit language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-001751",
+    "target_label": "FP002",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Good day. This is Vodafone fraud department. We detected unusual activity.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-001530",
+    "target_label": "FP002",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Good day. This is Vodafone fraud department. We detected unusual activity.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-001417",
+    "target_label": "FP002",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, my name is Asante Amoah, I am a senior officer at Glo Mobile Money. We are calling about your account.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-009582",
+    "target_label": "FP002",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No explicit provider or staff impersonation claim.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-006290",
+    "target_label": "FP002",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No explicit provider or staff impersonation claim.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-001878",
+    "target_label": "FP002",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Good day. This is MTN fraud department. We detected unusual activity.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-010278",
+    "target_label": "FP002",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "This is MTN support. To fix the issue, please log in via this link I will WhatsApp you.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-006615",
+    "target_label": "FP002",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No explicit provider or staff impersonation claim.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-000095",
+    "target_label": "FP002",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Boateng Jallow from AirtelTigo customer care. We have a pending refund of GHS 400 on your mobile money wallet.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-005523",
+    "target_label": "FP002",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No explicit provider or staff impersonation claim.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-010838",
+    "target_label": "FP002",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No explicit provider or staff impersonation claim.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-007400",
+    "target_label": "FP002",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No explicit provider or staff impersonation claim.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-002969",
+    "target_label": "FP003",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Your MoMo account has been flagged. To avoid permanent lock, confirm details now.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-001524",
+    "target_label": "FP003",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No account blocking, suspension or flagging pretext.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-002888",
+    "target_label": "FP003",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Your MoMo account has been flagged. To avoid permanent lock, confirm details now.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-002787",
+    "target_label": "FP003",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, this is Asante Bonsu. We are about to suspend your wallet. Call us back immediately.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-006521",
+    "target_label": "FP003",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No account blocking, suspension or flagging pretext.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-007614",
+    "target_label": "FP003",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No account blocking, suspension or flagging pretext.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-004068",
+    "target_label": "FP003",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No account blocking, suspension or flagging pretext.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-002635",
+    "target_label": "FP003",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Warning: Account deactivation scheduled. Reply YES to speak to an agent.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-017278",
+    "target_label": "FP003",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No account blocking, suspension or flagging pretext.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-006039",
+    "target_label": "FP003",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No account blocking, suspension or flagging pretext.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-014920",
+    "target_label": "FP003",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No account blocking, suspension or flagging pretext.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-004128",
+    "target_label": "FP003",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No account blocking, suspension or flagging pretext.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-004351",
+    "target_label": "FP004",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Congratulations! You have won GHS 5000 in the Vodafone promo. Claim now.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-012450",
+    "target_label": "FP004",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No prize, reward or opportunity bait language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-003914",
+    "target_label": "FP004",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Congratulations! You have won GHS 10000 in the MTN promo. Claim now.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-003877",
+    "target_label": "FP004",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Your number won today's MoMo jackpot. Reply to process the GHS 2500.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-003081",
+    "target_label": "FP004",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No prize, reward or opportunity bait language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-003526",
+    "target_label": "FP004",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Your number won today's MoMo jackpot. Reply to process the GHS 500.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-004091",
+    "target_label": "FP004",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Limited offer: Get GHS 1500 free credit by completing a short verification.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-004455",
+    "target_label": "FP004",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Your number won today's MoMo jackpot. Reply to process the GHS 200.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-007661",
+    "target_label": "FP004",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No prize, reward or opportunity bait language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-013483",
+    "target_label": "FP004",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No prize, reward or opportunity bait language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-000408",
+    "target_label": "FP004",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No prize, reward or opportunity bait language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-002596",
+    "target_label": "FP004",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No prize, reward or opportunity bait language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-008044",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "Missing combined verification pretext and credential request.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-005806",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Verification/service pretext + credential request present.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-005663",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Verification/service pretext + credential request present.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-004890",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Verification/service pretext + credential request present.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-005361",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Verification/service pretext + credential request present.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-005467",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Verification/service pretext + credential request present.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-005168",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Verification/service pretext + credential request present.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-004838",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Verification/service pretext + credential request present.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-009480",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "Missing combined verification pretext and credential request.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-016832",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "Missing combined verification pretext and credential request.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-007733",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "Missing combined verification pretext and credential request.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-006521",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "Missing combined verification pretext and credential request.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-006913",
+    "target_label": "FP006",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, the shop is closed. Please transfer the money to my friend's wallet: 0549757363",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-006664",
+    "target_label": "FP006",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, the shop is closed. Please transfer the money to my friend's wallet: 0565157111",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-006840",
+    "target_label": "FP006",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, the shop is closed. Please transfer the money to my friend's wallet: 0264964720",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-005854",
+    "target_label": "FP006",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "The original recipient number is not working. Use this one for the payment.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-006078",
+    "target_label": "FP006",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "The original recipient number is not working. Use this one for the payment.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-006929",
+    "target_label": "FP006",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Quick change: send the GHS 100 to 0565722305 so I can cash out nearby.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-006385",
+    "target_label": "FP006",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Quick change: send the GHS 150 to 0204673157 so I can cash out nearby.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-006114",
+    "target_label": "FP006",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, this is Danso Inkoom. I am at the agent but the network is down. Can you send GHS 150 to this other number instead?",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-015539",
+    "target_label": "FP006",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No recipient/destination substitution request.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-008847",
+    "target_label": "FP006",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No recipient/destination substitution request.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-016440",
+    "target_label": "FP006",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No recipient/destination substitution request.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-010618",
+    "target_label": "FP006",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No recipient/destination substitution request.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-007247",
+    "target_label": "FP007",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, to cash out faster, just approve the prompt I am sending from the agent phone.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-003674",
+    "target_label": "FP007",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No agent-directed device/PIN/float manipulation.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-007868",
+    "target_label": "FP007",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "The network is slow. Let me use my float to pay you, then you reverse to this number.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-007108",
+    "target_label": "FP007",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Customer, come. The system is showing error. Give me your phone, I will complete the GHS 3000 for you.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-007357",
+    "target_label": "FP007",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "For the deposit, type your PIN on my device. It is safer.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-007401",
+    "target_label": "FP007",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, to cash out faster, just approve the prompt I am sending from the agent phone.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-008040",
+    "target_label": "FP007",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Customer, come. The system is showing error. Give me your phone, I will complete the GHS 250 for you.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-007075",
+    "target_label": "FP007",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Customer, come. The system is showing error. Give me your phone, I will complete the GHS 100 for you.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-002958",
+    "target_label": "FP007",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No agent-directed device/PIN/float manipulation.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-017526",
+    "target_label": "FP007",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No agent-directed device/PIN/float manipulation.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-014427",
+    "target_label": "FP007",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No agent-directed device/PIN/float manipulation.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-010136",
+    "target_label": "FP007",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No agent-directed device/PIN/float manipulation.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-008330",
+    "target_label": "FP008",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Quaye Quaye, this is Nkrumah Lamptey. I am stranded at the station. Can you MoMo me GHS 3000?",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-008450",
+    "target_label": "FP008",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Auntie, it is Frimpong Boateng. I need help with school fees. Please transfer now.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-008789",
+    "target_label": "FP008",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Bonsu Amoah, this is Ama Danso. I am stranded at the station. Can you MoMo me GHS 250?",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-008901",
+    "target_label": "FP008",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Bro, I changed my number. Save this one and send the money we talked about.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-008843",
+    "target_label": "FP008",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Papa Addo, this is Danso Gyasi. I am stranded at the station. Can you MoMo me GHS 5000?",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-000872",
+    "target_label": "FP008",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No familiar-person or cloned-profile claim.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-009225",
+    "target_label": "FP008",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your cousin. My phone got stolen. Please send GHS 300 to this new number urgently.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-008227",
+    "target_label": "FP008",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Bro, I changed my number. Save this one and send the money we talked about.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-014886",
+    "target_label": "FP008",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No familiar-person or cloned-profile claim.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-004232",
+    "target_label": "FP008",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No familiar-person or cloned-profile claim.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-013089",
+    "target_label": "FP008",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No familiar-person or cloned-profile claim.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-001727",
+    "target_label": "FP008",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No familiar-person or cloned-profile claim.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-010029",
+    "target_label": "FP009",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Your account is locked. Visit this temporary agent portal and enter your details.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-010465",
+    "target_label": "FP009",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Your account is locked. Visit this temporary agent portal and enter your details.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-001144",
+    "target_label": "FP009",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No false-support redirection to link/portal/alternative channel.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-010223",
+    "target_label": "FP009",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "This is Glo support. To fix the issue, please log in via this link I will WhatsApp you.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-005860",
+    "target_label": "FP009",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No false-support redirection to link/portal/alternative channel.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-010225",
+    "target_label": "FP009",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "This is Vodafone support. To fix the issue, please log in via this link I will WhatsApp you.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-009601",
+    "target_label": "FP009",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, we need you to dial a special code to reset your wallet access.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-010093",
+    "target_label": "FP009",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "This is Glo support. To fix the issue, please log in via this link I will WhatsApp you.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-015694",
+    "target_label": "FP009",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No false-support redirection to link/portal/alternative channel.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-015132",
+    "target_label": "FP009",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No false-support redirection to link/portal/alternative channel.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-006591",
+    "target_label": "FP009",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No false-support redirection to link/portal/alternative channel.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-003711",
+    "target_label": "FP009",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No false-support redirection to link/portal/alternative channel.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-010836",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "The agent is waiting. Confirm the payment request on your phone now.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-010622",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "I sent the money request. Approve so we can finish the deal.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-010759",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "I sent the money request. Approve so we can finish the deal.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-008306",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No prompt-approval or misattribution language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-011228",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "You will see a debit prompt. It is for the goods. Accept it.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-010749",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "I just initiated the transfer of GHS 150. Please approve the prompt that appears.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-011377",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "The agent is waiting. Confirm the payment request on your phone now.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-009588",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No prompt-approval or misattribution language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-006854",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No prompt-approval or misattribution language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-014737",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No prompt-approval or misattribution language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-004488",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No prompt-approval or misattribution language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-009605",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No prompt-approval or misattribution language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-012683",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, take this bundle and give me the cash equivalent. I will load the airtime later.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-012696",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Customer, the cash is ready. But the system needs you to reverse GHS 250 first so I can balance the float.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-001806",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No physical cash/bundle substitution or float reverse request.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-012819",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Customer, the cash is ready. But the system needs you to reverse GHS 100 first so I can balance the float.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-011947",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, take this bundle and give me the cash equivalent. I will load the airtime later.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-012730",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "The machine is offline. Give me the cash, I will deposit it into your wallet when network returns.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-012011",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "The machine is offline. Give me the cash, I will deposit it into your wallet when network returns.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-012250",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, take this bundle and give me the cash equivalent. I will load the airtime later.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-016550",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No physical cash/bundle substitution or float reverse request.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-007424",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No physical cash/bundle substitution or float reverse request.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-015759",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No physical cash/bundle substitution or float reverse request.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-016314",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No physical cash/bundle substitution or float reverse request.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-002481",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No wallet enrolment / cross-device access language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-013690",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "We are migrating wallets. Enter your PIN on the new handset I will guide you.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-013681",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "For the upgrade, allow remote access temporarily by approving the prompt.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-013208",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "To activate the new MoMo feature, we need to register this device against your wallet.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-002950",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No wallet enrolment / cross-device access language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-010351",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "evidence_notes": "No wallet enrolment / cross-device access language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-013827",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "To activate the new MoMo feature, we need to register this device against your wallet.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-013428",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, your account can now be accessed from a second phone. Confirm by sharing the OTP.",
+    "corrected_status": "positive"
+  },
+  {
+    "record_id": "SYN-000125",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No wallet enrolment / cross-device access language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-011666",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No wallet enrolment / cross-device access language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-010805",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No wallet enrolment / cross-device access language.",
+    "corrected_status": "negative"
+  },
+  {
+    "record_id": "SYN-009666",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "evidence_notes": "No wallet enrolment / cross-device access language.",
+    "corrected_status": "negative"
+  }
+]

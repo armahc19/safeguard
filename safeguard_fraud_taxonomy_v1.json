@@ -1,0 +1,487 @@
+{
+  "schema_version": "1.0.0",
+  "artifact": "safeguard_fraud_taxonomy",
+  "title": "SafeGuard Ghana Mobile Money Fraud Taxonomy",
+  "status": "draft_v1",
+  "source_library": {
+    "title": "Mobile Money Fraud Hackathon Case Study Library",
+    "edition_scope": "36 records: 24 Ghana, 9 other African countries, 3 Asia",
+    "ghana_scope": "GH01-GH24, with GH16 separately labelled unresolved",
+    "method_note": "Taxonomy categories are analytical classifications derived from documented case descriptions. They are not legal findings and do not prove intent in an individual event."
+  },
+  "classification_principles": [
+    "Separate observed facts from curator interpretation.",
+    "A reported number, profile, person or account is not automatically malicious.",
+    "Do not infer a PIN, OTP, USSD or technical exploit unless the case evidence states it.",
+    "Distinguish channel (where contact occurs) from vector (how deception is delivered).",
+    "Preserve whether a record is a conviction, allegation, provider account, official warning, documented pattern, community account, attempted scam or unresolved report.",
+    "A case may map to multiple patterns and tactics; mappings must be evidence-backed.",
+    "Absence of evidence is not evidence that a tactic was absent."
+  ],
+  "lifecycle": [
+    {
+      "id": "LS01",
+      "name": "contact",
+      "definition": "The target is first approached or enters a deceptive interaction."
+    },
+    {
+      "id": "LS02",
+      "name": "conversation",
+      "definition": "A story, role, problem, offer or transaction context is established."
+    },
+    {
+      "id": "LS03",
+      "name": "manipulation",
+      "definition": "The target or intermediary is influenced to trust, comply, disclose or misinterpret an action."
+    },
+    {
+      "id": "LS04",
+      "name": "action",
+      "definition": "A wallet-related action occurs, such as credential disclosure, approval, transfer, cash handling or enrolment."
+    },
+    {
+      "id": "LS05",
+      "name": "loss",
+      "definition": "A financial or wallet-access impact is reported or established."
+    }
+  ],
+  "fraud_patterns": [
+    {
+      "id": "FP001",
+      "name": "Fabricated credit and refund pretext",
+      "category": "false_transaction_story",
+      "definition": "A target is told that a wallet credit was mistakenly sent and is asked to return funds, although the original credit is not established.",
+      "indicators": [
+        "A claimed incoming payment cannot be confirmed in the wallet balance or transaction history",
+        "Caller asks for a fresh transfer described as a refund or reversal",
+        "SMS or other apparent proof is used to support the claimed credit"
+      ],
+      "counter_checks": [
+        "Check the official wallet balance and transaction history independently",
+        "Do not send a new transfer based only on an SMS or caller explanation"
+      ],
+      "case_ids": [
+        "GH01",
+        "GH02",
+        "GH03",
+        "GH13",
+        "GH24"
+      ]
+    },
+    {
+      "id": "FP002",
+      "name": "Provider or staff impersonation",
+      "category": "impersonation",
+      "definition": "A caller or account falsely claims to represent a mobile operator, provider, head office, security team or support function.",
+      "indicators": [
+        "Unsolicited claim of provider employment or authority",
+        "Instructions to perform wallet actions or disclose secrets",
+        "Discourages independent verification through official channels"
+      ],
+      "counter_checks": [
+        "End the interaction and contact the provider using an independently obtained official channel",
+        "Never disclose a wallet PIN or OTP to a caller"
+      ],
+      "case_ids": [
+        "GH03",
+        "GH04",
+        "GH07",
+        "GH08",
+        "GH17",
+        "GH18",
+        "GH19",
+        "GH24"
+      ]
+    },
+    {
+      "id": "FP003",
+      "name": "Account blocking or unblocking pretext",
+      "category": "threat_and_reassurance",
+      "definition": "A fabricated or claimed wallet restriction is used to frighten the target and make a supposed official helper's instructions seem necessary.",
+      "indicators": [
+        "Threat or claim that wallet/account has been blocked",
+        "Same or associated caller offers to restore access",
+        "Guided procedures follow the blocking claim"
+      ],
+      "counter_checks": [
+        "Verify account status directly in the official app or provider channel",
+        "Do not follow unsolicited caller-guided wallet procedures"
+      ],
+      "case_ids": [
+        "GH03",
+        "GH24"
+      ]
+    },
+    {
+      "id": "FP004",
+      "name": "Reward, prize or opportunity bait",
+      "category": "reward_bait",
+      "definition": "A prize, promotion, discount, loan or opportunity is used to draw a target into a wallet-related process or credential request.",
+      "indicators": [
+        "Unexpected prize, promotion, loan or financial benefit",
+        "A wallet PIN, OTP, code or outgoing approval is framed as a condition to receive the benefit",
+        "Third-party form or link requests wallet credentials"
+      ],
+      "counter_checks": [
+        "Treat a request for a wallet PIN as unsafe regardless of the promised reward",
+        "Verify promotions and programmes through official sources"
+      ],
+      "case_ids": [
+        "GH09",
+        "GH20",
+        "GH21",
+        "GH23"
+      ]
+    },
+    {
+      "id": "FP005",
+      "name": "Credential harvesting under service or verification pretext",
+      "category": "credential_theft",
+      "definition": "A wallet PIN, OTP, app-registration code or other secret is requested under the guise of payment verification, customer support, delivery or application processing.",
+      "indicators": [
+        "Form or caller asks for wallet PIN or OTP",
+        "Secret is described as verification, confirmation, training or service processing",
+        "A link or form imitates a business or institutional process"
+      ],
+      "counter_checks": [
+        "Never share a wallet PIN or OTP",
+        "Stop if a form asks for a wallet secret; verify the service independently"
+      ],
+      "case_ids": [
+        "GH11",
+        "GH15",
+        "GH17",
+        "GH18",
+        "GH20",
+        "GH21",
+        "GH23"
+      ]
+    },
+    {
+      "id": "FP006",
+      "name": "Recipient or destination substitution",
+      "category": "payment_redirection",
+      "definition": "A legitimate or expected payment is redirected to a different wallet destination through a false identity or changed payment instruction.",
+      "indicators": [
+        "Expected payee or transaction context is real",
+        "A new or changed wallet destination is supplied",
+        "Recipient identity is assumed from contextual knowledge rather than independently verified"
+      ],
+      "counter_checks": [
+        "Confirm destination details with the intended recipient using a known, separate channel",
+        "Treat last-minute destination changes as a verification trigger"
+      ],
+      "case_ids": [
+        "GH10",
+        "GH06"
+      ]
+    },
+    {
+      "id": "FP007",
+      "name": "Agent-directed transaction manipulation",
+      "category": "agent_workflow_abuse",
+      "definition": "An agent or merchant is induced to execute a wallet transaction under a false explanation, remote coaching or misleading customer context.",
+      "indicators": [
+        "Caller directs agent through prompts",
+        "Customer's stated purpose differs from the actual transaction",
+        "Agent is asked to use their own device or wallet under claimed training/security instructions"
+      ],
+      "counter_checks": [
+        "Agent independently confirms transaction type, recipient and amount before approval",
+        "Do not hand control of transaction prompts to an unsolicited caller"
+      ],
+      "case_ids": [
+        "GH04",
+        "GH07",
+        "GH08",
+        "GH12",
+        "GH14"
+      ]
+    },
+    {
+      "id": "FP008",
+      "name": "Cloned profile or familiar-person impersonation",
+      "category": "identity_impersonation",
+      "definition": "A copied profile image, familiar name or apparent known relationship is used to make a payment instruction appear authentic.",
+      "indicators": [
+        "Familiar profile photo or name on a different account",
+        "Unexpected payment instruction from a known contact identity",
+        "Request to transfer funds based on a chat identity alone"
+      ],
+      "counter_checks": [
+        "Verify through a known phone number or separate trusted channel",
+        "A profile photo is not proof of account ownership"
+      ],
+      "case_ids": [
+        "GH05",
+        "GH06"
+      ]
+    },
+    {
+      "id": "FP009",
+      "name": "False support and account-access redirection",
+      "category": "support_impersonation",
+      "definition": "A legitimate service enquiry or support need is redirected into a wallet operation, link, app-registration or credential process.",
+      "indicators": [
+        "Support representative sends links or guides wallet actions unrelated to the original service",
+        "Wallet app registration or login codes are requested",
+        "Customer is coached to enter codes while troubleshooting"
+      ],
+      "counter_checks": [
+        "Use support contacts published by the service provider",
+        "Do not let a support contact direct wallet credentials or app enrolment"
+      ],
+      "case_ids": [
+        "GH17",
+        "GH18",
+        "GH19"
+      ]
+    },
+    {
+      "id": "FP010",
+      "name": "Prompt misattribution during a real transaction",
+      "category": "approval_confusion",
+      "definition": "A real-world agent visit or expected transaction causes a customer to misattribute a separate wallet approval prompt to the transaction they intended.",
+      "indicators": [
+        "A prompt arrives during a genuine cash-out or agent visit",
+        "Displayed transaction details do not match the intended operation",
+        "The customer assumes the visible agent initiated the prompt"
+      ],
+      "counter_checks": [
+        "Read the full prompt: amount, operation and recipient",
+        "Do not approve a prompt until the agent and transaction details match"
+      ],
+      "case_ids": [
+        "GH14",
+        "GH16"
+      ]
+    },
+    {
+      "id": "FP011",
+      "name": "Physical cash or bundle substitution in agent workflow",
+      "category": "cash_substitution",
+      "definition": "Cash involved in a mobile-money agent transaction is substituted or misrepresented during cancellation, return or resumption.",
+      "indicators": [
+        "Previously checked cash bundle is returned without recounting",
+        "Transaction is cancelled and resumed",
+        "Physical cash value differs from the assumed amount"
+      ],
+      "counter_checks": [
+        "Recount cash after every return or cancellation",
+        "Keep cash verification separate from assumptions about prior checks"
+      ],
+      "case_ids": [
+        "GH22"
+      ]
+    },
+    {
+      "id": "FP012",
+      "name": "Wallet enrolment or cross-device access deception",
+      "category": "account_enrolment",
+      "definition": "A target is induced to disclose registration or login credentials that are reportedly used to register or access a wallet on another device.",
+      "indicators": [
+        "App-registration OTP and wallet PIN requested",
+        "Login OTP disclosed to another person",
+        "Provider reports wallet registration on another device"
+      ],
+      "counter_checks": [
+        "Never disclose registration or login OTPs",
+        "Contact provider immediately if an enrolment code was shared"
+      ],
+      "case_ids": [
+        "GH18"
+      ]
+    }
+  ],
+  "behaviour_tactics": [
+    {
+      "id": "BT001",
+      "name": "Authority exploitation",
+      "definition": "A claimed official, employer, provider or institutional role is used to gain compliance.",
+      "observable_cues": [
+        "Claims to be provider staff, manager, head office, government programme or support agent",
+        "Uses hierarchy or official-sounding process to direct action"
+      ],
+      "case_ids": [
+        "GH03",
+        "GH04",
+        "GH06",
+        "GH07",
+        "GH08",
+        "GH17",
+        "GH19",
+        "GH23",
+        "GH24"
+      ]
+    },
+    {
+      "id": "BT002",
+      "name": "Fear and loss aversion",
+      "definition": "A threat of blocked access, lost funds or other negative consequence is used to motivate action.",
+      "observable_cues": [
+        "Threat of account blocking or loss of service",
+        "Claim that immediate action is required to prevent a negative outcome"
+      ],
+      "case_ids": [
+        "GH03",
+        "GH24"
+      ]
+    },
+    {
+      "id": "BT003",
+      "name": "Helpfulness and moral obligation",
+      "definition": "The target is asked to help correct a mistake, assist a customer or complete a seemingly fair obligation.",
+      "observable_cues": [
+        "Request to return supposed mistaken funds",
+        "Request to help a customer or agent resolve an issue"
+      ],
+      "case_ids": [
+        "GH01",
+        "GH02",
+        "GH11",
+        "GH13"
+      ]
+    },
+    {
+      "id": "BT004",
+      "name": "Reward and opportunity anticipation",
+      "definition": "A prize, discount, loan or other benefit encourages continued engagement or disclosure.",
+      "observable_cues": [
+        "Unexpected prize or promotion",
+        "Discount or opportunity linked to a wallet process"
+      ],
+      "case_ids": [
+        "GH09",
+        "GH20",
+        "GH21",
+        "GH23"
+      ]
+    },
+    {
+      "id": "BT005",
+      "name": "Familiarity and recognition",
+      "definition": "Known people, familiar profile images, routine interactions or existing payment obligations make a request seem credible.",
+      "observable_cues": [
+        "Copied profile photo",
+        "Known customer or expected payee context",
+        "Routine service or transaction setting"
+      ],
+      "case_ids": [
+        "GH05",
+        "GH06",
+        "GH10",
+        "GH22"
+      ]
+    },
+    {
+      "id": "BT006",
+      "name": "Commitment and momentum",
+      "definition": "Small steps or repeated actions make it easier to continue with a harmful process.",
+      "observable_cues": [
+        "Several guided prompts or successive transfers",
+        "Interaction continues after an initial inconsistency"
+      ],
+      "case_ids": [
+        "GH02",
+        "GH05",
+        "GH12",
+        "GH17"
+      ]
+    },
+    {
+      "id": "BT007",
+      "name": "Apparent corroboration",
+      "definition": "Multiple signals that may share one source appear to independently confirm a claim.",
+      "observable_cues": [
+        "A call and fabricated message support the same payment or blocking story"
+      ],
+      "case_ids": [
+        "GH01",
+        "GH03",
+        "GH13",
+        "GH24"
+      ]
+    },
+    {
+      "id": "BT008",
+      "name": "Relief seeking and fatigue",
+      "definition": "Repeated nuisance, confusion or disruption makes an apparent helper seem attractive.",
+      "observable_cues": [
+        "Repeated calls or interruptions followed by an offer to solve the problem"
+      ],
+      "case_ids": [
+        "GH19"
+      ]
+    },
+    {
+      "id": "BT009",
+      "name": "Task completion and procedural legitimacy",
+      "definition": "A familiar form, menu, payment or service process makes an unsafe step appear like a routine requirement.",
+      "observable_cues": [
+        "Credential request embedded in payment verification or application",
+        "Wallet prompt framed as necessary to finish an unrelated task"
+      ],
+      "case_ids": [
+        "GH09",
+        "GH15",
+        "GH17",
+        "GH20",
+        "GH21",
+        "GH23"
+      ]
+    },
+    {
+      "id": "BT010",
+      "name": "Expectation and situational trust",
+      "definition": "The surrounding context leads a person to assume a prompt, person or transaction belongs to the legitimate activity underway.",
+      "observable_cues": [
+        "Approval prompt arrives during a real agent visit",
+        "Customer presence or agent involvement is treated as proof of legitimacy"
+      ],
+      "case_ids": [
+        "GH04",
+        "GH12",
+        "GH14"
+      ]
+    }
+  ],
+  "channels": [
+    "voice_call",
+    "sms",
+    "ussd",
+    "whatsapp",
+    "social_media",
+    "website_or_form",
+    "wallet_app",
+    "physical_agent_outlet",
+    "search_or_map_listing",
+    "unknown"
+  ],
+  "vectors": [
+    "vishing",
+    "smishing",
+    "phishing",
+    "pretexting",
+    "staff_impersonation",
+    "profile_cloning",
+    "credential_harvesting",
+    "fake_transaction_notification",
+    "guided_wallet_action",
+    "recipient_substitution",
+    "prompt_misattribution",
+    "cash_substitution"
+  ],
+  "evidence_statuses": [
+    "reported_conviction",
+    "reported_prosecution_or_court_allegation",
+    "official_warning_or_disavowal",
+    "provider_account",
+    "regulator_documented_pattern",
+    "police_documented_pattern",
+    "media_described_alleged_pattern",
+    "first_person_community_account",
+    "secondhand_family_account",
+    "reported_attempt",
+    "unresolved_allegation"
+  ]
+}

@@ -1,0 +1,1740 @@
+[
+  {
+    "record_id": "SYN-010494",
+    "conversation": [
+      {
+        "speaker": "Scammer",
+        "message": "This is AirtelTigo support. To fix the issue, please log in via this link I will WhatsApp you."
+      },
+      {
+        "speaker": "Victim",
+        "message": "Okay, send the link."
+      },
+      {
+        "speaker": "Scammer",
+        "message": "After verification we will restore full access."
+      },
+      {
+        "speaker": "Victim",
+        "message": "This is how people lose money."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_incorrect",
+    "corrected_status": "positive",
+    "evidence_notes": "Scammer explicitly claims 'AirtelTigo support' and uses that institutional position to direct the victim to log in via a link for verification and access restoration."
+  },
+  {
+    "record_id": "SYN-010415",
+    "conversation": [
+      {
+        "speaker": "Mobile money agent",
+        "message": "Your account is locked. Visit this temporary agent portal and enter your details."
+      },
+      {
+        "speaker": "Customer",
+        "message": "I will call the real hotline myself."
+      },
+      {
+        "speaker": "Mobile money agent",
+        "message": "After verification we will restore full access."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Speaker is labeled 'Mobile money agent' but does not explicitly claim an official/institutional position in the messages to pressure compliance; the request stands alone without authority invocation."
+  },
+  {
+    "record_id": "SYN-008474",
+    "conversation": [
+      {
+        "speaker": "Caller",
+        "message": "Bro, I changed my number. Save this one and send the money we talked about."
+      },
+      {
+        "speaker": "Victim",
+        "message": "Let me ask you a question only you know."
+      },
+      {
+        "speaker": "Caller",
+        "message": "Yes it is really me. I lost the old SIM. Just send it."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "No claim of any official, professional, or institutional position; pure personal impersonation of a known contact."
+  },
+  {
+    "record_id": "SYN-005697",
+    "conversation": [
+      {
+        "speaker": "Scammer",
+        "message": "Hello, your mobile money PIN is about to expire. Please reconfirm it."
+      },
+      {
+        "speaker": "Victim",
+        "message": "Why do you need my PIN?"
+      },
+      {
+        "speaker": "Scammer",
+        "message": "What is the OTP currently displayed on your phone?"
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "positive",
+    "review_decision": "label_incorrect",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit claim of official, professional, or institutional position appears in the dialogue; requests for PIN/OTP lack authority framing."
+  },
+  {
+    "record_id": "SYN-016230",
+    "conversation": [
+      {
+        "speaker": "Mobile money agent",
+        "message": "Hello, I cannot access my MTN MoMo. It says network error."
+      },
+      {
+        "speaker": "Customer",
+        "message": "Sorry about that. Can you try *170# again? Sometimes it is temporary."
+      },
+      {
+        "speaker": "Mobile money agent",
+        "message": "Still the same. What should I do?"
+      },
+      {
+        "speaker": "Customer",
+        "message": "Please visit the nearest service centre with your ID for assistance. Or wait 30 minutes and retry."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Ordinary customer-service style exchange; the 'Mobile money agent' speaker is seeking help, not claiming authority to influence the other party."
+  },
+  {
+    "record_id": "SYN-010910",
+    "conversation": [
+      {
+        "speaker": "Mobile money agent",
+        "message": "I just initiated the transfer of GHS 250. Please approve the prompt that appears."
+      },
+      {
+        "speaker": "Customer",
+        "message": "The prompt shows a different name."
+      },
+      {
+        "speaker": "Mobile money agent",
+        "message": "Once approved the seller will release the item."
+      },
+      {
+        "speaker": "Customer",
+        "message": "Call me so I hear your voice."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "No claim of official or institutional position; speaker acts as a transaction counterparty without invoking authority."
+  },
+  {
+    "record_id": "SYN-016958",
+    "conversation": [
+      {
+        "speaker": "Caller",
+        "message": "This is Vodafone customer care. We are calling to confirm a recent large transaction of GHS 200."
+      },
+      {
+        "speaker": "Recipient",
+        "message": "Yes, I made that payment to my landlord."
+      },
+      {
+        "speaker": "Caller",
+        "message": "Thank you for confirming. No further action needed. Have a good day."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Caller claims Vodafone customer care but makes no request that requires compliance; conversation ends after simple confirmation with no pressure or influence attempt."
+  },
+  {
+    "record_id": "SYN-001201",
+    "conversation": [
+      {
+        "speaker": "Caller",
+        "message": "Hello, my name is Nana Mensah, I am a senior officer at MTN Mobile Money. We are calling about your account."
+      },
+      {
+        "speaker": "Victim",
+        "message": "I will hang up and call the official hotline."
+      },
+      {
+        "speaker": "Caller",
+        "message": "I need you to share the OTP that just arrived so we can secure the account."
+      },
+      {
+        "speaker": "Victim",
+        "message": "This is suspicious. I am reporting you."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "positive",
+    "review_decision": "label_confirmed",
+    "corrected_status": "positive",
+    "evidence_notes": "Caller explicitly claims 'senior officer at MTN Mobile Money' and uses that claimed institutional role to request the OTP for account security."
+  },
+  {
+    "record_id": "SYN-006141",
+    "conversation": [
+      {
+        "speaker": "Scammer",
+        "message": "Brother, the shop is closed. Please transfer the money to my friend's wallet: 0205387093"
+      },
+      {
+        "speaker": "Potential victim",
+        "message": "Let me call the original person first."
+      },
+      {
+        "speaker": "Scammer",
+        "message": "Yes, just use the new number. I will confirm when it arrives."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "No official or institutional position claimed; request is framed as a personal/shop logistics change."
+  },
+  {
+    "record_id": "SYN-010293",
+    "conversation": [
+      {
+        "speaker": "Caller",
+        "message": "Hello, we need you to dial a special code to reset your wallet access."
+      },
+      {
+        "speaker": "Victim",
+        "message": "Can I just go to a physical agent?"
+      },
+      {
+        "speaker": "Caller",
+        "message": "After verification we will restore full access."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "positive",
+    "review_decision": "label_incorrect",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit claim of official, professional, or institutional position is present in the messages; authority is not invoked."
+  },
+  {
+    "record_id": "SYN-004446",
+    "conversation": [
+      {
+        "speaker": "Scammer",
+        "message": "Congratulations! You have won GHS 15000 in the Vodafone promo. Claim now."
+      },
+      {
+        "speaker": "Victim",
+        "message": "Sounds too good to be true."
+      },
+      {
+        "speaker": "Scammer",
+        "message": "Send GHS 20 to the agent code I give you and the full amount follows."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Promo win claim does not constitute claiming an official position used to influence compliance; no institutional role is asserted by the speaker."
+  },
+  {
+    "record_id": "SYN-014314",
+    "conversation": [
+      {
+        "speaker": "Friend",
+        "message": "Did you receive the money I sent yesterday?"
+      },
+      {
+        "speaker": "Friend",
+        "message": "Yes, it came. Thank you. I will pay you back next week."
+      },
+      {
+        "speaker": "Friend",
+        "message": "No rush. Just confirming."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Ordinary personal conversation between friends; no official or institutional claim of any kind."
+  },
+  {
+    "record_id": "SYN-012772",
+    "conversation": [
+      {
+        "speaker": "Mobile money agent",
+        "message": "Brother, take this bundle and give me the cash equivalent. I will load the airtime later."
+      },
+      {
+        "speaker": "Customer",
+        "message": "I will wait for the system."
+      },
+      {
+        "speaker": "Mobile money agent",
+        "message": "Once you reverse, the cash is yours immediately."
+      },
+      {
+        "speaker": "Customer",
+        "message": "Fine, doing the reverse."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "positive",
+    "review_decision": "label_incorrect",
+    "corrected_status": "negative",
+    "evidence_notes": "Speaker is labeled agent but does not claim or leverage any official/institutional position in the dialogue to force the reverse; it is a transactional request."
+  },
+  {
+    "record_id": "SYN-017823",
+    "conversation": [
+      {
+        "speaker": "Caller",
+        "message": "Did you receive the money I sent yesterday?"
+      },
+      {
+        "speaker": "Recipient",
+        "message": "Yes, it came. Thank you. I will pay you back next week."
+      },
+      {
+        "speaker": "Caller",
+        "message": "No rush. Just confirming."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Simple personal confirmation of a transfer; no official or institutional position claimed."
+  },
+  {
+    "record_id": "SYN-008297",
+    "conversation": [
+      {
+        "speaker": "Mobile money agent",
+        "message": "Bro, I changed my number. Save this one and send the money we talked about."
+      },
+      {
+        "speaker": "Customer",
+        "message": "I will send a small amount first."
+      },
+      {
+        "speaker": "Mobile money agent",
+        "message": "Once I receive it I will explain everything."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Personal number-change request; no claim of official or institutional authority."
+  },
+  {
+    "record_id": "SYN-000553",
+    "conversation": [
+      {
+        "speaker": "Scammer",
+        "message": "Hi, calling about a failed transaction. You are due a refund of GHS 100. Can we process it now?"
+      },
+      {
+        "speaker": "Victim",
+        "message": "Okay, how do I get the money?"
+      },
+      {
+        "speaker": "Scammer",
+        "message": "To complete the refund I need you to confirm your mobile money PIN or the last 4 digits."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Refund framing without any explicit claim of official, professional, or institutional position."
+  },
+  {
+    "record_id": "SYN-009022",
+    "conversation": [
+      {
+        "speaker": "Caller",
+        "message": "Hello Ama Fosu, this is Quaye Hodzi. I am stranded at the station. Can you MoMo me GHS 500?"
+      },
+      {
+        "speaker": "Victim",
+        "message": "Okay, what happened?"
+      },
+      {
+        "speaker": "Caller",
+        "message": "Yes it is really me. I lost the old SIM. Just send it."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Personal emergency/identity claim only; no official or institutional position asserted."
+  },
+  {
+    "record_id": "SYN-000833",
+    "conversation": [
+      {
+        "speaker": "Scammer",
+        "message": "Good afternoon, this is Ama Addo from Glo customer care. We have a pending refund of GHS 250 on your mobile money wallet."
+      },
+      {
+        "speaker": "Potential victim",
+        "message": "Is this really from Glo?"
+      },
+      {
+        "speaker": "Scammer",
+        "message": "To complete the refund I need you to confirm your mobile money PIN or the last 4 digits."
+      },
+      {
+        "speaker": "Potential victim",
+        "message": "This sounds like a scam. Goodbye."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_incorrect",
+    "corrected_status": "positive",
+    "evidence_notes": "Scammer explicitly claims 'from Glo customer care' and uses that institutional identity to request PIN confirmation for the refund."
+  },
+  {
+    "record_id": "SYN-011782",
+    "conversation": [
+      {
+        "speaker": "Scammer",
+        "message": "To complete the cash-out, I need you to send the same amount back to my agent number."
+      },
+      {
+        "speaker": "Victim",
+        "message": "No reverse. Just give me my cash."
+      },
+      {
+        "speaker": "Scammer",
+        "message": "I will give you a receipt after the reverse."
+      },
+      {
+        "speaker": "Victim",
+        "message": "I am not reversing anything."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "positive",
+    "review_decision": "label_incorrect",
+    "corrected_status": "negative",
+    "evidence_notes": "No claim of official or institutional position; pure transactional pressure for a reverse transfer."
+  },
+  {
+    "record_id": "SYN-009020",
+    "conversation": [
+      {
+        "speaker": "Mobile money agent",
+        "message": "Hi, it's me, your uncle. My phone got stolen. Please send GHS 300 to this new number urgently."
+      },
+      {
+        "speaker": "Customer",
+        "message": "How do I know it is really you?"
+      },
+      {
+        "speaker": "Mobile money agent",
+        "message": "Yes it is really me. I lost the old SIM. Just send it."
+      },
+      {
+        "speaker": "Customer",
+        "message": "This is a common scam. Blocking."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Family/relative impersonation only; no official or institutional position claimed."
+  },
+  {
+    "record_id": "SYN-000758",
+    "conversation": [
+      {
+        "speaker": "Caller",
+        "message": "Please, this is Essien Gyasi. Your last transfer bounced and GHS 200 is waiting to be returned."
+      },
+      {
+        "speaker": "Victim",
+        "message": "Okay, how do I get the money?"
+      },
+      {
+        "speaker": "Caller",
+        "message": "Just reply with the OTP we are about to send so we can push the credit."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Personal name given but no claim of official, professional, or institutional role used to influence the OTP request."
+  },
+  {
+    "record_id": "SYN-016218",
+    "conversation": [
+      {
+        "speaker": "Customer support representative",
+        "message": "Did you receive the money I sent yesterday?"
+      },
+      {
+        "speaker": "Customer",
+        "message": "Yes, it came. Thank you. I will pay you back next week."
+      },
+      {
+        "speaker": "Customer support representative",
+        "message": "No rush. Just confirming."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Label 'Customer support representative' is external; dialogue itself contains no claim of official position or authority-based influence."
+  },
+  {
+    "record_id": "SYN-009989",
+    "conversation": [
+      {
+        "speaker": "Caller",
+        "message": "This is AirtelTigo support. To fix the issue, me pa wo kyew log in via this link I will WhatsApp you."
+      },
+      {
+        "speaker": "Victim",
+        "message": "Can I just go to a physical agent?"
+      },
+      {
+        "speaker": "Caller",
+        "message": "I will stay on the line while you complete the form."
+      },
+      {
+        "speaker": "Victim",
+        "message": "Fine, waiting for the message."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_incorrect",
+    "corrected_status": "positive",
+    "evidence_notes": "Caller explicitly claims 'AirtelTigo support' and uses that institutional identity to direct the victim to log in via a link while remaining on the line."
+  },
+  {
+    "record_id": "SYN-014114",
+    "conversation": [
+      {
+        "speaker": "Family member",
+        "message": "Please deposit GHS 1500 into my wallet."
+      },
+      {
+        "speaker": "Family member",
+        "message": "No problem. Confirm the number and I will process."
+      },
+      {
+        "speaker": "Family member",
+        "message": "Yes, the number is correct."
+      },
+      {
+        "speaker": "Family member",
+        "message": "Done. You should receive the SMS confirmation shortly."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Ordinary family money transfer; no official or institutional position claimed."
+  },
+  {
+    "record_id": "SYN-000264",
+    "conversation": [
+      {
+        "speaker": "Caller",
+        "message": "Please, this is Nkrumah Baah. Your last transfer bounced and GHS 300 is waiting to be returned."
+      },
+      {
+        "speaker": "Victim",
+        "message": "My account is fine, I didn't request anything."
+      },
+      {
+        "speaker": "Caller",
+        "message": "Just reply with the OTP we are about to send so we can push the credit."
+      },
+      {
+        "speaker": "Victim",
+        "message": "Send the money first then we talk."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Personal name used for a bounce/refund story; no official or institutional position claimed."
+  },
+  {
+    "record_id": "SYN-008832",
+    "conversation": [
+      {
+        "speaker": "Mobile money agent",
+        "message": "Hello Nkrumah Baah, this is Opoku Doku. I am stranded at the station. Can you MoMo me GHS 1000?"
+      },
+      {
+        "speaker": "Customer",
+        "message": "I will send a small amount first."
+      },
+      {
+        "speaker": "Mobile money agent",
+        "message": "Once I receive it I will explain everything."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Personal stranded-at-station appeal; no official or institutional authority claimed."
+  },
+  {
+    "record_id": "SYN-003918",
+    "conversation": [
+      {
+        "speaker": "Scammer",
+        "message": "Congratulations! You have won GHS 20000 in the AirtelTigo promo. Claim now."
+      },
+      {
+        "speaker": "Victim",
+        "message": "I didn't enter any promo."
+      },
+      {
+        "speaker": "Scammer",
+        "message": "Share your mobile money PIN so we can deposit the winnings directly."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Prize claim does not include any assertion of an official or institutional position by the speaker."
+  },
+  {
+    "record_id": "SYN-012347",
+    "conversation": [
+      {
+        "speaker": "Mobile money agent",
+        "message": "To complete the cash-out, I need you to send the same amount back to my agent number."
+      },
+      {
+        "speaker": "Customer",
+        "message": "I will wait for the system."
+      },
+      {
+        "speaker": "Mobile money agent",
+        "message": "Once you reverse, the cash is yours immediately."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "positive",
+    "review_decision": "label_incorrect",
+    "corrected_status": "negative",
+    "evidence_notes": "Transactional reverse request with no claim of official or institutional authority in the dialogue."
+  },
+  {
+    "record_id": "SYN-006031",
+    "conversation": [
+      {
+        "speaker": "Scammer",
+        "message": "Quick change: send the GHS 200 to 0571410207 so I can cash out nearby."
+      },
+      {
+        "speaker": "Potential victim",
+        "message": "I will wait until network is back."
+      },
+      {
+        "speaker": "Scammer",
+        "message": "It is the same person, different SIM. Please proceed."
+      },
+      {
+        "speaker": "Potential victim",
+        "message": "No problem, transferring now."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Number-change request framed as same person; no official or institutional position claimed."
+  },
+  {
+    "record_id": "SYN-005912",
+    "conversation": [
+      {
+        "speaker": "Mobile money agent",
+        "message": "Brother, the shop is closed. Please transfer the money to my friend's wallet: 0201936873"
+      },
+      {
+        "speaker": "Customer",
+        "message": "Let me call the original person first."
+      },
+      {
+        "speaker": "Mobile money agent",
+        "message": "It is the same person, different SIM. Please proceed."
+      },
+      {
+        "speaker": "Customer",
+        "message": "No problem, transferring now."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Shop-closed logistics change; no official or institutional authority asserted."
+  },
+  {
+    "record_id": "SYN-001214",
+    "conversation": [
+      {
+        "speaker": "Scammer",
+        "message": "Hello, my name is Cobbina Agyeman, I am a senior officer at AirtelTigo Mobile Money. We are calling about your account."
+      },
+      {
+        "speaker": "Victim",
+        "message": "Okay, what is the problem exactly?"
+      },
+      {
+        "speaker": "Scammer",
+        "message": "Confirm your full name and the phone number registered."
+      },
+      {
+        "speaker": "Victim",
+        "message": "This is suspicious. I am reporting you."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "positive",
+    "review_decision": "label_confirmed",
+    "corrected_status": "positive",
+    "evidence_notes": "Scammer explicitly claims 'senior officer at AirtelTigo Mobile Money' and uses that role to request personal confirmation details."
+  },
+  {
+    "record_id": "SYN-007327",
+    "conversation": [
+      {
+        "speaker": "Scammer",
+        "message": "The network is slow. Let me use my float to pay you, then you reverse to this number."
+      },
+      {
+        "speaker": "Victim",
+        "message": "I will wait for the network."
+      },
+      {
+        "speaker": "Scammer",
+        "message": "Yes, just enter the PIN here. I will handle the rest."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "positive",
+    "review_decision": "label_incorrect",
+    "corrected_status": "negative",
+    "evidence_notes": "No claim of official or institutional position; request relies on convenience/network framing only."
+  },
+  {
+    "record_id": "SYN-008110",
+    "conversation": [
+      {
+        "speaker": "Mobile money agent",
+        "message": "Brother, to cash out faster, just approve the prompt I am sending from the agent phone."
+      },
+      {
+        "speaker": "Customer",
+        "message": "Is this the normal process?"
+      },
+      {
+        "speaker": "Mobile money agent",
+        "message": "After you approve, the money will reflect immediately."
+      },
+      {
+        "speaker": "Customer",
+        "message": "Alright, doing it your way."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "positive",
+    "review_decision": "label_incorrect",
+    "corrected_status": "negative",
+    "evidence_notes": "Agent label is external; dialogue contains no explicit claim of institutional authority used to compel approval."
+  },
+  {
+    "record_id": "SYN-006508",
+    "conversation": [
+      {
+        "speaker": "Mobile money agent",
+        "message": "Hi, this is Quaye Eshun. I am at the agent but the network is down. Can you send GHS 150 to this other number instead?"
+      },
+      {
+        "speaker": "Customer",
+        "message": "Why the sudden change?"
+      },
+      {
+        "speaker": "Mobile money agent",
+        "message": "I am waiting at the new agent. Hurry."
+      },
+      {
+        "speaker": "Customer",
+        "message": "Confirm the name on the new wallet."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Personal network/agent logistics request; no official or institutional position claimed."
+  },
+  {
+    "record_id": "SYN-002293",
+    "conversation": [
+      {
+        "speaker": "Scammer",
+        "message": "Good day. This is Glo fraud department. We detected unusual activity."
+      },
+      {
+        "speaker": "Victim",
+        "message": "How did you get my number?"
+      },
+      {
+        "speaker": "Scammer",
+        "message": "I need you to share the OTP that just arrived so we can secure the account."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "positive",
+    "review_decision": "label_confirmed",
+    "corrected_status": "positive",
+    "evidence_notes": "Scammer explicitly claims 'Glo fraud department' and uses that institutional authority to request the OTP."
+  },
+  {
+    "record_id": "SYN-006549",
+    "conversation": [
+      {
+        "speaker": "Scammer",
+        "message": "Hi, this is Adjei Nkrumah. I am at the agent but the network is down. Can you send GHS 5000 to this other number instead?"
+      },
+      {
+        "speaker": "Victim",
+        "message": "Why the sudden change?"
+      },
+      {
+        "speaker": "Scammer",
+        "message": "Once you send, reply with the transaction ID."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Personal name and network-down story; no official or institutional position claimed."
+  },
+  {
+    "record_id": "SYN-005867",
+    "conversation": [
+      {
+        "speaker": "Mobile money agent",
+        "message": "Hi, this is Boateng Hodzi. I am at the agent but the network is down. Can you send GHS 200 to this other number instead?"
+      },
+      {
+        "speaker": "Customer",
+        "message": "Okay, sending now."
+      },
+      {
+        "speaker": "Mobile money agent",
+        "message": "Yes, just use the new number. I will confirm when it arrives."
+      },
+      {
+        "speaker": "Customer",
+        "message": "No problem, transferring now."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Personal logistics request; no official or institutional authority asserted."
+  },
+  {
+    "record_id": "SYN-000475",
+    "conversation": [
+      {
+        "speaker": "Mobile money agent",
+        "message": "Please, this is Akosua Adu. Your last transfer bounced and GHS 3000 is waiting to be returned."
+      },
+      {
+        "speaker": "Customer",
+        "message": "My account is fine, I didn't request anything."
+      },
+      {
+        "speaker": "Mobile money agent",
+        "message": "Just reply with the OTP we are about to send so we can push the credit."
+      },
+      {
+        "speaker": "Customer",
+        "message": "I am not giving any PIN. Call the official number."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Personal name used for bounce story; no claim of official or institutional position."
+  },
+  {
+    "record_id": "SYN-009307",
+    "conversation": [
+      {
+        "speaker": "Caller",
+        "message": "Hi, it's me, your auntie. My phone got stolen. Please send GHS 50 to this new number urgently."
+      },
+      {
+        "speaker": "Victim",
+        "message": "Let me ask you a question only you know."
+      },
+      {
+        "speaker": "Caller",
+        "message": "Once I receive it I will explain everything."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Family relative impersonation; no official or institutional position claimed."
+  },
+  {
+    "record_id": "SYN-006455",
+    "conversation": [
+      {
+        "speaker": "Scammer",
+        "message": "Quick change: send the GHS 2500 to 0204853996 so I can cash out nearby."
+      },
+      {
+        "speaker": "Victim",
+        "message": "Okay, sending now."
+      },
+      {
+        "speaker": "Scammer",
+        "message": "Once you send, reply with the transaction ID."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Number-change request only; no official or institutional position claimed."
+  },
+  {
+    "record_id": "SYN-012924",
+    "conversation": [
+      {
+        "speaker": "Caller",
+        "message": "To activate the new MoMo feature, we need to register this device against your wallet."
+      },
+      {
+        "speaker": "Victim",
+        "message": "Send me the official procedure."
+      },
+      {
+        "speaker": "Caller",
+        "message": "Once linked you can use either phone."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Feature-activation request without any explicit claim of official or institutional position."
+  },
+  {
+    "record_id": "SYN-016550",
+    "conversation": [
+      {
+        "speaker": "Mobile money agent",
+        "message": "Good morning. I want to cash out GHS 2500."
+      },
+      {
+        "speaker": "Customer",
+        "message": "Sure. Please dial *170# and select cash out, then give me the code."
+      },
+      {
+        "speaker": "Mobile money agent",
+        "message": "Okay, the code is ready. Here is my phone."
+      },
+      {
+        "speaker": "Customer",
+        "message": "Transaction successful. Here is your cash and the receipt."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Standard legitimate cash-out interaction; no authority claim used to influence compliance."
+  },
+  {
+    "record_id": "SYN-013124",
+    "conversation": [
+      {
+        "speaker": "Scammer",
+        "message": "We are migrating wallets. Enter your PIN on the new handset I will guide you."
+      },
+      {
+        "speaker": "Potential victim",
+        "message": "Okay, how long does it take?"
+      },
+      {
+        "speaker": "Scammer",
+        "message": "It is temporary; we remove the access after verification."
+      },
+      {
+        "speaker": "Potential victim",
+        "message": "This sounds like account takeover."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "positive",
+    "review_decision": "label_incorrect",
+    "corrected_status": "negative",
+    "evidence_notes": "Migration framing without any explicit claim of official, professional, or institutional position."
+  },
+  {
+    "record_id": "SYN-004529",
+    "conversation": [
+      {
+        "speaker": "Scammer",
+        "message": "Congratulations! You have won GHS 3750 in the Glo promo. Claim now."
+      },
+      {
+        "speaker": "Potential victim",
+        "message": "Wow, really? How do I claim?"
+      },
+      {
+        "speaker": "Scammer",
+        "message": "Send GHS 20 to the agent code I give you and the full amount follows."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Promo win claim does not include assertion of an official or institutional position by the speaker."
+  },
+  {
+    "record_id": "SYN-000312",
+    "conversation": [
+      {
+        "speaker": "Caller",
+        "message": "Hello, Glo here. Our system shows an overpayment of GHS 300 that needs to be credited back to you."
+      },
+      {
+        "speaker": "Victim",
+        "message": "Okay, how do I get the money?"
+      },
+      {
+        "speaker": "Caller",
+        "message": "To complete the refund I need you to confirm your mobile money PIN or the last 4 digits."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_incorrect",
+    "corrected_status": "positive",
+    "evidence_notes": "Caller claims 'Glo here' (institutional identity) and uses it to request PIN confirmation for the overpayment credit."
+  },
+  {
+    "record_id": "SYN-006785",
+    "conversation": [
+      {
+        "speaker": "Scammer",
+        "message": "The original recipient number is not working. Use this one for the payment."
+      },
+      {
+        "speaker": "Victim",
+        "message": "Why the sudden change?"
+      },
+      {
+        "speaker": "Scammer",
+        "message": "Once you send, reply with the transaction ID."
+      },
+      {
+        "speaker": "Victim",
+        "message": "No problem, transferring now."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Number-change request only; no official or institutional position claimed."
+  },
+  {
+    "record_id": "SYN-011216",
+    "conversation": [
+      {
+        "speaker": "Caller",
+        "message": "You will see a debit prompt. It is for the goods. Accept it."
+      },
+      {
+        "speaker": "Victim",
+        "message": "Okay, approving now."
+      },
+      {
+        "speaker": "Caller",
+        "message": "Yes, that prompt is from me. Just enter your PIN."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Transactional prompt approval request; no official or institutional position claimed."
+  },
+  {
+    "record_id": "SYN-011228",
+    "conversation": [
+      {
+        "speaker": "Caller",
+        "message": "You will see a debit prompt. It is for the goods. Accept it."
+      },
+      {
+        "speaker": "Victim",
+        "message": "I see a request from unknown number."
+      },
+      {
+        "speaker": "Caller",
+        "message": "Ignore the number shown; the system routes through different codes."
+      },
+      {
+        "speaker": "Victim",
+        "message": "Call me so I hear your voice."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Transactional prompt request with system-routing explanation; no official or institutional position claimed."
+  },
+  {
+    "record_id": "SYN-009875",
+    "conversation": [
+      {
+        "speaker": "Caller",
+        "message": "Your account is locked. Visit this temporary agent portal and enter your details."
+      },
+      {
+        "speaker": "Victim",
+        "message": "Okay, send the link."
+      },
+      {
+        "speaker": "Caller",
+        "message": "I will stay on the line while you complete the form."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "positive",
+    "review_decision": "label_incorrect",
+    "corrected_status": "negative",
+    "evidence_notes": "Account-lock and portal request without any explicit claim of official, professional, or institutional position."
+  },
+  {
+    "record_id": "SYN-013529",
+    "conversation": [
+      {
+        "speaker": "Scammer",
+        "message": "We are migrating wallets. Enter your PIN on the new handset I will guide you."
+      },
+      {
+        "speaker": "Victim",
+        "message": "Okay, how long does it take?"
+      },
+      {
+        "speaker": "Scammer",
+        "message": "Just type the code and the enrolment finishes."
+      }
+    ],
+    "target_label": "BT001",
+    "label_definition": "A claimed official, professional or institutional position is deliberately used to influence compliance.",
+    "positive_evidence": [
+      "The speaker invokes an official role to make the target obey.",
+      "Institutional authority is used to discourage questioning or independent verification.",
+      "A claimed hierarchy or official process is used to pressure the target."
+    ],
+    "exclusion_rules": [
+      "A person merely stating their occupation or organization.",
+      "A legitimate representative providing information without exploiting authority.",
+      "An official-sounding name without evidence it influences the requested action."
+    ],
+    "current_label": "negative",
+    "review_decision": "label_confirmed",
+    "corrected_status": "negative",
+    "evidence_notes": "Migration framing without explicit claim of official or institutional position."
+  }
+]

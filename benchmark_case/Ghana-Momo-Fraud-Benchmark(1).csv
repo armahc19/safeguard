@@ -1,0 +1,21 @@
+id,message_text,ground_truth_label,fraud_category,channel,language,money_or_credentials_requested,severity,user_already_acted,grounding_note
+G001,"Hello, I mistakenly sent GHS 500 to your MoMo. Please send it back, I am crying, my child is sick.",fraud,fake_wrong_transfer,SMS/call,en,money,high,no,"Pattern from Assin Fosu GHc38,450 case and Pulse GHc500 case"
+G002,Cash received GHS 500.00 from 0241608098. Balance: GHS 2189.26. Call me to reverse with code I got from MTN office.,fraud,fake_wrong_transfer+fake_alert,SMS,en,credentials,high,no,"Fake alert + code request, balance mismatch pattern"
+G003,SORRY YOU HAVE BEEN BOLCK BY M.T.N FOR 500 YEARS DUE TO WORRONG TRANSACTION DONT ENTER YOUR PIN.,fraud,account_blocking_impersonation,SMS,en_mixed,credentials,medium,no,Real screenshot pattern shared in Ghana posts
+G004,Yello Dear User Your Account has being LOCKDED For 31 DAYS due to Agent Report don't attempt ur PinCoDe Thank You.,fraud,account_blocking_impersonation,SMS,en_broken,credentials,medium,no,Real screenshot pattern
+G005,This is MTN office. Your MoMo will be blocked. Send your PIN and OTP to verify and unblock.,fraud,otp_pin_request_impersonation,call/SMS,en,credentials,critical,no,"MTN impersonation, CSA warning pattern"
+G006,I received OTP for GHc107.10 to an unknown account. Someone called asking me to share it.,fraud,otp_phishing,SMS/call,en,credentials,critical,no,Efya OTP GHc107.10 pattern
+G007,"My phone suddenly lost network, then my MoMo PIN was reset and wallet emptied in minutes.",fraud,sim_swap_account_takeover,narrative,en,credentials,critical,yes,"SIM-swap pattern, BoG 1847 cases Jan-Sep 2025"
+G008,"Congratulations! You won GHS 5,000 in MTN/Coca-Cola promo. Pay GHS 200 fee to claim.",fraud,fake_prize,SMS,en,money,high,no,Fake promo pattern
+G009,24-Hour Economy loan: fill form with your MoMo PIN to apply. Young people apply now.,fraud,fake_government_loan,social_form,en,credentials,critical,no,Official 24H+ alert: form requested MoMo PIN
+G010,Work from home job at MTN/AngloGold. Pay GHS 150 registration fee via MoMo to start.,fraud,fake_job,WhatsApp/SMS,en,money,high,no,Fake job registration fee pattern GHS50-500
+G011,"Fast Loans ZERO INTEREST! Apply here, enter PIN/OTP to get loan instantly.",fraud,fake_loan_phishing,link/WhatsApp,en,credentials,critical,no,MTN MoMo Wayo Loan App PSA pattern
+G012,"Auntie, I changed my number. This is me, please send GHS 800 urgently, I am in trouble.",fraud,whatsapp_impersonation_family,WhatsApp,en,money,high,no,Auntie I changed my number pattern
+G013,"Hello this is DSTV customer service. Give decoder number and MoMo PIN to upgrade, enter code sent.",fraud,brand_impersonation_pin_harvest,call/link,en,credentials,critical,yes,"Joselyn Dumas DSTV pattern, wallet drained"
+G014,"My brother, I am stranded in Kumasi, accident, send MoMo now, don't tell mum.",fraud,romance_family_emergency,WhatsApp/call,en,money,high,no,Family emergency pattern
+G015,You have received GHS 150.00 from MOHAMMED NEEQUAYE. Transaction ID GM260217... Check balance on *170#.,benign,genuine_alert_template,SMS,en,none,low,no,"Genuine alert format: sender MobileMoney, ID, check balance - do NOT trust text alone, verify"
+G016,MTN MoMo: Your transaction of GHS 200 to Ama Mensah was successful. Ref: 8355990663. Fee GHS 7.50. Your balance is GHS 312.40.,benign,genuine_transaction_alert,SMS,en,none,low,yes,Genuine alert structure
+G017,"Maame, me send GHS 100 give you for chop money. Check your MoMo, make you confirm. - Kwame",benign,benign_twi_english_mixed,SMS/WhatsApp,twi_en_mixed,none,low,no,Benign Twi/English family transfer
+G018,"Chale, I dey send you the GHS 50 I borrow yesterday. E go come from my number, no be scam.",benign,benign_twi_english_mixed,WhatsApp,twi_en_mixed,none,low,no,"Benign repayment, informal Twi/English"
+G019,Someone sent me money by mistake and is calling. I have not checked balance or sent anything.,uncertain,unclear_wrong_transfer,call,en,none,medium,no,"Needs more info: check *170# balance, do not send yourself, let sender use reversal"
+G020,Message: 'Your code is closed for 3 months call for help' after a GHS 4500 alert from JESUS PRAYER CENTER. No sender ID shown.,uncertain,unclear_fake_alert_or_spam,SMS,en,none,medium,no,"Ambiguous screenshot: could be scam, needs sender ID + balance check before label"

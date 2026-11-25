@@ -1,0 +1,3792 @@
+[
+  {
+    "record_id": "SYN-003446",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "To stop the block, provide the OTP sent to your phone right now.",
+    "additional_supported_labels": [
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-007754",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "Yes, just enter the PIN here. I will handle the rest.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-007983",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP010"
+    ]
+  },
+  {
+    "record_id": "SYN-013651",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "We are migrating wallets. Enter your PIN on the new handset I will guide you.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-008597",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP006",
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-006663",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-007177",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP010"
+    ]
+  },
+  {
+    "record_id": "SYN-013590",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-008594",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-000823",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-004001",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "Share your mobile money PIN so we can deposit the winnings directly.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-006580",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-004389",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "Share your mobile money PIN so we can deposit the winnings directly.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-001758",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-000336",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "Just reply with the OTP we are about to send so we can push the credit.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-001763",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-008697",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-009594",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-000788",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "To complete the refund I need you to confirm your mobile money PIN or the last 4 digits.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-012398",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP011"
+    ]
+  },
+  {
+    "record_id": "SYN-010918",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "Yes, that prompt is from me. Just enter your PIN.",
+    "additional_supported_labels": [
+      "FP010"
+    ]
+  },
+  {
+    "record_id": "SYN-006722",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-010132",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-010089",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-003663",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "Approve the OTP that arrives; it is required for the transfer.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-007514",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-013173",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-004145",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "Approve the OTP that arrives; it is required for the transfer.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-009133",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP004",
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-008769",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP006",
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-007705",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-005935",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-013221",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "We are migrating wallets. Enter your PIN on the new handset I will guide you.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-000546",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-013038",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "We are migrating wallets. Enter your PIN on the new handset I will guide you.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-012854",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "We are migrating wallets. Enter your PIN on the new handset I will guide you.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-004374",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-007133",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP010"
+    ]
+  },
+  {
+    "record_id": "SYN-004195",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "Approve the OTP that arrives; it is required for the transfer.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-007041",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "For the deposit, type your PIN on my device. It is safer.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-006678",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-008819",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP006",
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-000797",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "Just reply with the OTP we are about to send so we can push the credit.",
+    "additional_supported_labels": [
+      "FP002",
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-000757",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "To complete the refund I need you to confirm your mobile money PIN or the last 4 digits.",
+    "additional_supported_labels": [
+      "FP002",
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-001960",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "For security we must verify your identity. What is the PIN linked to the wallet?",
+    "additional_supported_labels": [
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-010213",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-008575",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP006",
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-007024",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "Yes, just enter the PIN here. I will handle the rest.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-007885",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "Yes, just enter the PIN here. I will handle the rest.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-008595",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-006837",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-012377",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP011"
+    ]
+  },
+  {
+    "record_id": "SYN-013787",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-003774",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-013055",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-012853",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "We are migrating wallets. Enter your PIN on the new handset I will guide you.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-008052",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "Yes, just enter the PIN here. I will handle the rest.",
+    "additional_supported_labels": [
+      "FP010",
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-013510",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "We are migrating wallets. Enter your PIN on the new handset I will guide you.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-001753",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "I need you to share the OTP that just arrived so we can secure the account.",
+    "additional_supported_labels": [
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-008573",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-004320",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "Share your mobile money PIN so we can deposit the winnings directly.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-011834",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP011"
+    ]
+  },
+  {
+    "record_id": "SYN-013729",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-008067",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-001067",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "To complete the refund I need you to confirm your mobile money PIN or the last 4 digits.",
+    "additional_supported_labels": [
+      "FP002",
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-001942",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-003720",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "Approve the OTP that arrives; it is required for the transfer.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-006903",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-001577",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-007757",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-011407",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP010"
+    ]
+  },
+  {
+    "record_id": "SYN-012993",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-000636",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-009264",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP006",
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-013179",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "We are migrating wallets. Enter your PIN on the new handset I will guide you.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-003992",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "Share your mobile money PIN so we can deposit the winnings directly.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-001190",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "For security we must verify your identity. What is the PIN linked to the wallet?",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-009307",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP006",
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-010957",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP010"
+    ]
+  },
+  {
+    "record_id": "SYN-010092",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "Once you enter the PIN on that page the account unlocks.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-002130",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "I need you to share the OTP that just arrived so we can secure the account.",
+    "additional_supported_labels": [
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-013188",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-000173",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-000781",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-009909",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-001838",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "I need you to share the OTP that just arrived so we can secure the account.",
+    "additional_supported_labels": [
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-001488",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-006272",
+    "target_label": "FP005",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-009520",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No explicit request for PIN, OTP or other secret credential under a service/verification pretext.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-001376",
+    "target_label": "FP005",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "For security we must verify your identity. What is the PIN linked to the wallet?",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-007754",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-007958",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-007994",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-003999",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-001893",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-007429",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "Approve the request that pops up. It is from the official agent code.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-000238",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-004356",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-002818",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-005993",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-002832",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-009480",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-007175",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-003599",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-001763",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-002406",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-004023",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-004362",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-004824",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-012090",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP011"
+    ]
+  },
+  {
+    "record_id": "SYN-000412",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-004964",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-010339",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-013963",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-007063",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-004057",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-003221",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP002",
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-003569",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-009281",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-007745",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-010334",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-009435",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-008280",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP006",
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-003708",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-000535",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-006056",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-007083",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "Approve the request that pops up. It is from the official agent code.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-004433",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-000372",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-008017",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-011964",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP011"
+    ]
+  },
+  {
+    "record_id": "SYN-008752",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-004609",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-003092",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-006852",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-009715",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-008965",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP006",
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-006525",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-012666",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP011"
+    ]
+  },
+  {
+    "record_id": "SYN-001029",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-007885",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-001073",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP002",
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-010262",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-007997",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "positive",
+    "evidence_notes": "Approve the request that pops up. It is from the official agent code.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-013219",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-005788",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-013231",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-006803",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-011698",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP011"
+    ]
+  },
+  {
+    "record_id": "SYN-006853",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-008803",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-010321",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-008398",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP006",
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-002550",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-009073",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP004",
+      "FP006",
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-001608",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-009327",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-003100",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-004645",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-007757",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-008985",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-007030",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-005101",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-004240",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-010082",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-005315",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-003465",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP002",
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-010329",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-006070",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-006124",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-005179",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-011911",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP011"
+    ]
+  },
+  {
+    "record_id": "SYN-008108",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-002379",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-008849",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-001510",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP005"
+    ]
+  },
+  {
+    "record_id": "SYN-008541",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-010001",
+    "target_label": "FP010",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-002705",
+    "target_label": "FP010",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No language about approving/misattributing a wallet prompt or mismatched transaction details.",
+    "additional_supported_labels": [
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-007958",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-013282",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-007983",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP010"
+    ]
+  },
+  {
+    "record_id": "SYN-001436",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-009817",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-005937",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-006336",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-010437",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-015730",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-013820",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-001013",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-000549",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-002645",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-013996",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-004317",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-001792",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-007514",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-001861",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-013474",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-005715",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-010166",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-006220",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-000439",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP002",
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-002203",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-000997",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP002",
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-007317",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-003040",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP002",
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-008740",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP006",
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-001955",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-013444",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-010095",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-001415",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-000522",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-008900",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-008588",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP006",
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-000834",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-007868",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-013644",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-000735",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP002",
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-008177",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-001315",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-007341",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-001601",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-012862",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-009224",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-008599",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP006",
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-000302",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-013055",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-000961",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP002",
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-002228",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-001307",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-011367",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-005989",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-001220",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP005"
+    ]
+  },
+  {
+    "record_id": "SYN-002780",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-000126",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-013686",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-008067",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-002794",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-000627",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP002",
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-009809",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-006258",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-004342",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-004639",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-008606",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-008780",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-003694",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-002892",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-007441",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-003908",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-001287",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-003619",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-003507",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-001467",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP005"
+    ]
+  },
+  {
+    "record_id": "SYN-007461",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP010",
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-005580",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-003518",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-004327",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-006070",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-003038",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-001427",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-003858",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-009758",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-013000",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-000417",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP002",
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-002454",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-000908",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-013810",
+    "target_label": "FP011",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP012"
+    ]
+  },
+  {
+    "record_id": "SYN-009520",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-001376",
+    "target_label": "FP011",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No physical cash/bundle substitution or float-balancing reverse request. Merely handling a transaction is insufficient.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-009045",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-009817",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-001129",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-004375",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-007177",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP010"
+    ]
+  },
+  {
+    "record_id": "SYN-004484",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-001982",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-002561",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-008213",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-001515",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-007353",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-010437",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-004602",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-001643",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-010918",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP010"
+    ]
+  },
+  {
+    "record_id": "SYN-002786",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP003"
+    ]
+  },
+  {
+    "record_id": "SYN-009116",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP006",
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-001000",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP002",
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-000049",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-009790",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-008339",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-003706",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-008970",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-011088",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP010"
+    ]
+  },
+  {
+    "record_id": "SYN-001288",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-008649",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP004",
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-000911",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-001298",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP005"
+    ]
+  },
+  {
+    "record_id": "SYN-008120",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP007"
+    ]
+  },
+  {
+    "record_id": "SYN-002203",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-000814",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-001304",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-000427",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-002286",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-000713",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-001879",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-003943",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-001799",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-006095",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-009647",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-011024",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-006808",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-009209",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-011688",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-008177",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-012231",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP011"
+    ]
+  },
+  {
+    "record_id": "SYN-012741",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-010476",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-003926",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-006862",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-008389",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP008"
+    ]
+  },
+  {
+    "record_id": "SYN-012292",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-001220",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP005"
+    ]
+  },
+  {
+    "record_id": "SYN-009691",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-012546",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP011"
+    ]
+  },
+  {
+    "record_id": "SYN-009698",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-003739",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-009584",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-000315",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP002",
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-000654",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP002",
+      "FP001"
+    ]
+  },
+  {
+    "record_id": "SYN-007909",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP010"
+    ]
+  },
+  {
+    "record_id": "SYN-003612",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP004"
+    ]
+  },
+  {
+    "record_id": "SYN-010030",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-009809",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-006430",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-001264",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-008371",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-009510",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-011820",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-006262",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-011254",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP005",
+      "FP010"
+    ]
+  },
+  {
+    "record_id": "SYN-006885",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP006"
+    ]
+  },
+  {
+    "record_id": "SYN-009485",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP009"
+    ]
+  },
+  {
+    "record_id": "SYN-005871",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-012734",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-001305",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP002"
+    ]
+  },
+  {
+    "record_id": "SYN-011992",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": [
+      "FP011"
+    ]
+  },
+  {
+    "record_id": "SYN-006272",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-009090",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-002317",
+    "target_label": "FP012",
+    "current_status": "negative",
+    "review_decision": "supported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  },
+  {
+    "record_id": "SYN-002142",
+    "target_label": "FP012",
+    "current_status": "positive",
+    "review_decision": "unsupported",
+    "corrected_status": "negative",
+    "evidence_notes": "No wallet enrolment, migration or cross-device access language. OTP/PIN request alone is insufficient for FP012.",
+    "additional_supported_labels": []
+  }
+]

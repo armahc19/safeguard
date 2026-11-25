@@ -1,0 +1,1947 @@
+{
+  "schema_version": "1.0.0",
+  "artifact": "safeguard_validation_test_dataset",
+  "title": "SafeGuard Fraud Intelligence Validation Dataset v1",
+  "created_at_utc": "2026-11-13T09:44:01.855929+00:00",
+  "status": "testing_draft",
+  "purpose": "Evaluate SafeGuard pattern detection, behaviour analysis, risk assessment, uncertainty handling and multi-turn conversation updates.",
+  "counts": {
+    "existing_ghana_cases": 24,
+    "synthetic_unseen_scams": 12,
+    "synthetic_legitimate_conversations": 18,
+    "total": 54
+  },
+  "important_evaluation_rules": [
+    "Existing case records are case-summary replays, not verbatim transcripts.",
+    "The 12 unseen scam scenarios and 18 legitimate conversations are synthetic and are not real reports.",
+    "Do not treat synthetic expected labels as evidence about real-world prevalence.",
+    "For existing cases, use source verification status and limitations; some are allegations, warnings or patterns rather than independently proven individual incidents.",
+    "An empty expected pattern list in a synthetic scenario means no direct mapping was assigned; it does not mean the engine must invent a pattern.",
+    "Evaluate confidence separately from correctness. A high-confidence incorrect result is a serious failure.",
+    "Do not identify a phone number, person or wallet as criminal based on a single unverified report.",
+    "The expected risk values for synthetic cases are starting labels for review, not calibrated ground truth."
+  ],
+  "taxonomy_reference": {
+    "fraud_patterns": {
+      "FP001": "Fabricated credit and refund pretext",
+      "FP002": "Provider or staff impersonation",
+      "FP003": "Account blocking or unblocking pretext",
+      "FP004": "Reward, prize or opportunity bait",
+      "FP005": "Credential harvesting under service or verification pretext",
+      "FP006": "Recipient or destination substitution",
+      "FP007": "Agent-directed transaction manipulation",
+      "FP008": "Cloned profile or familiar-person impersonation",
+      "FP009": "False support and account-access redirection",
+      "FP010": "Prompt misattribution during a real transaction",
+      "FP011": "Physical cash or bundle substitution in agent workflow",
+      "FP012": "Wallet enrolment or cross-device access deception"
+    },
+    "behaviour_tactics": {
+      "BT001": "Authority exploitation",
+      "BT002": "Fear and loss aversion",
+      "BT003": "Helpfulness and moral obligation",
+      "BT004": "Reward and opportunity anticipation",
+      "BT005": "Familiarity and recognition",
+      "BT006": "Commitment and momentum",
+      "BT007": "Apparent corroboration",
+      "BT008": "Relief seeking and fatigue",
+      "BT009": "Task completion and procedural legitimacy",
+      "BT010": "Expectation and situational trust"
+    }
+  },
+  "test_cases": [
+    {
+      "test_id": "EXISTING_GH01",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH01",
+      "country": "Ghana",
+      "title": "A fabricated credit becomes a real refund",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A message claims a wallet credit arrived; a caller asks the customer to return it as a refund although the original credit is not established."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP001"
+        ],
+        "behaviour_tactic_ids": [
+          "BT003",
+          "BT007"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "regulator_documented_pattern",
+        "verification_status": "official_or_court_documented",
+        "source_summary": "Bank of Ghana fraud report; aggregate pattern, not one named victim.",
+        "reported_outcome": "No case-specific loss stated; documented pattern.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH02",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH02",
+      "country": "Ghana",
+      "title": "A reversal syndicate targets an agriculturist",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "Callers claim mistaken transfers and ask the target to help reverse them; five suspects were reportedly convicted."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP001"
+        ],
+        "behaviour_tactic_ids": [
+          "BT003",
+          "BT006"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "reported_conviction",
+        "verification_status": "official_or_court_documented",
+        "source_summary": "Ghana News Agency reports convictions and recovery; exact prompts and credential requests not published.",
+        "reported_outcome": "GHS 130,000 reported loss and recovery; court ordered return.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH03",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH03",
+      "country": "Ghana",
+      "title": "A rejected wrong transfer story becomes an account blocking threat",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "After a claimed mistaken transfer is rejected, a purported blocking message and an apparent official helper lead to guided wallet procedures."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP001",
+          "FP002",
+          "FP003"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT002",
+          "BT007"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "reported_conviction",
+        "verification_status": "official_or_court_documented",
+        "source_summary": "ModernGhana reproducing Graphic reporting; historical provider naming retained.",
+        "reported_outcome": "GHS 1,840 reported loss; receiving number reportedly blocked; offender reportedly sentenced.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH04",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH04",
+      "country": "Ghana",
+      "title": "A supposed anti fraud call draws a customer and agent into one transaction",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A fake promotional SMS and caller posing as telecom staff direct a customer to an agent; the agent is induced to transfer funds under a different understanding of the transaction."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP002",
+          "FP007"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT010"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "police_documented_pattern",
+        "verification_status": "official_or_court_documented",
+        "source_summary": "Ghana Police warning reported by GNA; multi-party pattern, not a single verified victim dossier.",
+        "reported_outcome": "No amount or named victim stated.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH05",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH05",
+      "country": "Ghana",
+      "title": "A familiar customer promises that cash is on the way",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A locally known customer obtains repeated agent transfers by promising that a relative will bring cash to settle them."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP008"
+        ],
+        "behaviour_tactic_ids": [
+          "BT005",
+          "BT006"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "reported_conviction",
+        "verification_status": "official_or_court_documented",
+        "source_summary": "Graphic Online/GNA court reporting; no technical platform breach described.",
+        "reported_outcome": "GHS 8,000 combined transfers; refund ordered, actual reimbursement not established.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH06",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH06",
+      "country": "Ghana",
+      "title": "The agent receives instructions from a copied boss profile",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A suspect allegedly copies a business owner's WhatsApp profile image and directs a vendor to transfer funds to another wallet."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP006",
+          "FP008"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT005"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "reported_prosecution_or_court_allegation",
+        "verification_status": "reported_not_independently_verified",
+        "source_summary": "Ghanaian Times citing Citi News; copied profile is not described as takeover of the owner's real account.",
+        "reported_outcome": "GHS 2,500 linked to reported incident; later judgment not verified.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH07",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH07",
+      "country": "Ghana",
+      "title": "A training call debits an agent wallet",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "Callers claiming to be MTN trainers guide an agent through wallet activity; the agent wallet is reportedly debited."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP002",
+          "FP007"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "reported_conviction",
+        "verification_status": "official_or_court_documented",
+        "source_summary": "GIABA institutional typology summary; exact commands and transcript unavailable.",
+        "reported_outcome": "GHS 2,000 debit; prosecution and imprisonment reported.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH08",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH08",
+      "country": "Ghana",
+      "title": "A claimed head office officer teaches MoMo reversals",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A caller claiming to be a senior officer offers reversal instruction; an employee enters a PIN and follows guidance before a large wallet transfer."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP002",
+          "FP007"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT006"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "reported_prosecution_or_court_allegation",
+        "verification_status": "reported_not_independently_verified",
+        "source_summary": "GIABA typology; exact prompts and final judgment not fully supplied.",
+        "reported_outcome": "GHS 37,000 reported transfer and withdrawal; prosecution reported.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH09",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH09",
+      "country": "Ghana",
+      "title": "A prize claim becomes a USSD debit approval",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A supposed prize or promotion leads a target through USSD steps and a debit prompt presented as necessary to receive the prize."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP004",
+          "FP007"
+        ],
+        "behaviour_tactic_ids": [
+          "BT004",
+          "BT009"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "regulator_documented_pattern",
+        "verification_status": "official_or_court_documented",
+        "source_summary": "GNA feature by fraud examiner; published expert description of a pattern.",
+        "reported_outcome": "No individual loss stated.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH10",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH10",
+      "country": "Ghana",
+      "title": "The expected payee changes the destination wallet",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A caller uses contextual knowledge of an expected payment and supplies a different wallet destination; the intended recipient later contacts the payer."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP006"
+        ],
+        "behaviour_tactic_ids": [
+          "BT005"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "reported_conviction",
+        "verification_status": "official_or_court_documented",
+        "source_summary": "Investigative reporting with victim accounts; recipient identity was assumed, not independently verified.",
+        "reported_outcome": "GHS 3,000 initial misdirected payment; recovery not established in dossier.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH11",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH11",
+      "country": "Ghana",
+      "title": "An airtime favour exposes a wallet PIN",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "An airtime-related favour is used to obtain or expose a wallet PIN; details in the library are limited."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP005"
+        ],
+        "behaviour_tactic_ids": [
+          "BT003"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "reported_pattern_or_case_summary",
+        "verification_status": "reported_not_independently_verified",
+        "source_summary": "Retained prior-edition dossier; limited source summary. Do not infer the exact technical use of the PIN.",
+        "reported_outcome": "Outcome and amount not reliably specified in the available extract.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH12",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH12",
+      "country": "Ghana",
+      "title": "A customer hands the agent a phone and another caller directs the transfer",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A customer seeking a cash withdrawal hands an agent a phone; a remote caller coaches the agent through prompts and a merchant-wallet transfer occurs instead of the expected cash-out."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP007"
+        ],
+        "behaviour_tactic_ids": [
+          "BT010",
+          "BT006"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "reported_conviction",
+        "verification_status": "official_or_court_documented",
+        "source_summary": "Adom Online and MyJoyOnline court reporting; details differ across reports and disputed details are excluded.",
+        "reported_outcome": "GHS 37,000 reported loss and recovery; conviction reported.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH13",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH13",
+      "country": "Ghana",
+      "title": "An apparent telecom message supports a refund call to a judge",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A caller claims a mistaken transfer and an apparent telecom message supports the claim; the target reports checking and rejecting it."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP001"
+        ],
+        "behaviour_tactic_ids": [
+          "BT003",
+          "BT007"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "reported_attempt",
+        "verification_status": "reported_not_independently_verified",
+        "source_summary": "MyJoyOnline report of a public account; amount and exact checking method not disclosed.",
+        "reported_outcome": "No loss reported.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH14",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH14",
+      "country": "Ghana",
+      "title": "A different agent initiates the prompt during a real withdrawal visit",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A media-described scenario alleges that a separate request initiator causes a prompt during a real cash-out visit, leading the customer to approve the wrong operation."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP007",
+          "FP010"
+        ],
+        "behaviour_tactic_ids": [
+          "BT010",
+          "BT009"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "media_described_alleged_pattern",
+        "verification_status": "reported_not_independently_verified",
+        "source_summary": "Pulse Ghana article; no provider logs, identified investigation or independently verified collusion supplied.",
+        "reported_outcome": "No named victim or quantified loss.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH15",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH15",
+      "country": "Ghana",
+      "title": "A payment verification form asks for the wallet PIN",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "Fake business listings divert customers to forms requesting phone, network, amount and MoMo PIN under payment verification."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP005"
+        ],
+        "behaviour_tactic_ids": [
+          "BT009",
+          "BT005"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "regulator_documented_pattern",
+        "verification_status": "official_or_court_documented",
+        "source_summary": "Cyber Security Authority advisory; aggregate category amount, not a PIN-harvesting-only total.",
+        "reported_outcome": "GHS 266,195 across 54 broader business-impersonation reports; not attributable solely to PIN forms.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH16",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH16",
+      "country": "Ghana",
+      "title": "A disputed cash out prompt shows a different service name",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A customer reports approving a withdrawal prompt showing a different service name and later disputing whether the outlet received the funds; the mechanism remains unresolved."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP010"
+        ],
+        "behaviour_tactic_ids": [],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "unresolved_allegation",
+        "verification_status": "unresolved",
+        "source_summary": "Daily Guide report; no verified social engineering, collusion or provider failure. Excluded from confirmed pattern training labels.",
+        "reported_outcome": "Amount and resolution not stated.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH17",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH17",
+      "country": "Ghana",
+      "title": "Fake subscription support leads to alleged wallet access and borrowing",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A person seeking subscription support is reportedly redirected to links and hurried wallet-code entry; wallet loss and borrowing are alleged."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP002",
+          "FP005",
+          "FP009"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT002",
+          "BT006",
+          "BT009"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "first_person_community_account",
+        "verification_status": "reported_not_independently_verified",
+        "source_summary": "Graphic Online account; public personal account, no transaction logs or independent adjudication retrieved.",
+        "reported_outcome": "Loss and loan amount not specified.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH18",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH18",
+      "country": "Ghana",
+      "title": "A TikTok complaint prompts a provider account of wallet registration on another device",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "Provider says a customer disclosed app-registration OTP, MoMo PIN and login OTP; provider attributes unauthorised transactions to wallet registration on another device."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP005",
+          "FP009",
+          "FP012"
+        ],
+        "behaviour_tactic_ids": [],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "provider_account",
+        "verification_status": "official_or_court_documented",
+        "source_summary": "MobileMoney Ltd statement republished by MyJoyOnline; provider account, pretext and psychological tactic not established.",
+        "reported_outcome": "Amount and recovery not specified.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH19",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH19",
+      "country": "Ghana",
+      "title": "Repeated nuisance calls are followed by a fake MTN helper",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A community poster says repeated calls were followed by a supposed MTN helper offering to stop them; the poster reports wallet loss after following a process."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP002",
+          "FP009"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT008"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "first_person_community_account",
+        "verification_status": "reported_not_independently_verified",
+        "source_summary": "Reddit r/ghana first-person account; comments are not corroboration.",
+        "reported_outcome": "GHS 700 claimed loss; no provider finding or transaction record verifies it.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH20",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH20",
+      "country": "Ghana",
+      "title": "A supposed restaurant confirmation asks for a Telecel wallet PIN",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A commenter says an apparent food-order process shifted into a request for a wallet PIN; the commenter says they refused."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP004",
+          "FP005"
+        ],
+        "behaviour_tactic_ids": [
+          "BT004",
+          "BT009"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "first_person_community_account",
+        "verification_status": "reported_not_independently_verified",
+        "source_summary": "Surviving Reddit comment beneath deleted original post; channel and provider response uncertain.",
+        "reported_outcome": "No completed loss claimed; attempted PIN use and provider blocking unverified.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH21",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH21",
+      "country": "Ghana",
+      "title": "An anonymous surprise delivery becomes a wallet-code request",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A family account says a caller described an anonymous food delivery and requested a code as identity confirmation; the code was reportedly shared and funds were lost."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP004",
+          "FP005"
+        ],
+        "behaviour_tactic_ids": [
+          "BT004",
+          "BT009"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "secondhand_family_account",
+        "verification_status": "reported_not_independently_verified",
+        "source_summary": "MyNewsGH family account and embedded Instagram video; video not independently reviewed.",
+        "reported_outcome": "Amount unspecified; wallet loss alleged.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH22",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH22",
+      "country": "Ghana",
+      "title": "A cancelled agent transaction returns with a substituted cash bundle",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "An agent-association account describes a returned cash bundle whose denominations were allegedly substituted after a transaction cancellation."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP011"
+        ],
+        "behaviour_tactic_ids": [
+          "BT005",
+          "BT009"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "agent_association_account",
+        "verification_status": "reported_not_independently_verified",
+        "source_summary": "MoMAG account reported by Citi Newsroom; no named victim, provider ledger or court outcome.",
+        "reported_outcome": "GHS 10,000 reported exposure; exact net loss not independently reconciled.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH23",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH23",
+      "country": "Ghana",
+      "title": "A purported public loan application requests the MoMo PIN",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A false public loan advertisement using a programme identity links to a form requesting personal details including a MoMo PIN; the programme disavows it."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP004",
+          "FP005"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT004",
+          "BT009"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "official_warning_or_disavowal",
+        "verification_status": "official_or_court_documented",
+        "source_summary": "24H+ Secretariat official warning; credential-harvesting campaign, not proof of completed takeover.",
+        "reported_outcome": "No verified loss or victim count.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "EXISTING_GH24",
+      "test_group": "existing_ghana_case",
+      "source_case_id": "GH24",
+      "country": "Ghana",
+      "title": "A recorded fake MTN call is challenged before its wallet story succeeds",
+      "input_type": "case_summary",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A caller claiming to be an MTN call centre alleges a mistaken transfer and blocked wallet; the target challenges the story and no fraud-induced transfer is established."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP001",
+          "FP002",
+          "FP003"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT002",
+          "BT007"
+        ],
+        "expected_risk": null,
+        "risk_labeling_note": "Review against the original case and evidence. Do not infer severity from the taxonomy link alone."
+      },
+      "source": {
+        "type": "reported_attempt",
+        "verification_status": "reported_not_independently_verified",
+        "source_summary": "YEN.com.gh report of audio exchange; audio authenticity and completeness not independently established.",
+        "reported_outcome": "No fraud-induced loss established; GHS 100 offered voluntarily, not counted as loss.",
+        "limitations": [
+          "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+          "Do not infer missing transaction steps, credential use or attacker identity."
+        ]
+      },
+      "test_notes": "Case-summary replay, not a verbatim transcript. Use to test case-level recognition, not exact phrase matching."
+    },
+    {
+      "test_id": "UNSEEN_SCAM_001",
+      "test_group": "synthetic_unseen_scam",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Fake SIM registration deadline",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "Someone called saying they are from the telecom registration unit. They said my SIM will be disconnected tonight unless I confirm my MoMo account."
+        },
+        {
+          "speaker": "caller",
+          "text": "I will send a short code. Read it back to me so I can complete the verification."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP002"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT002"
+        ],
+        "expected_risk": "critical",
+        "expected_reason": "Unsolicited official impersonation, service-disconnection threat and request to disclose a verification code."
+      },
+      "source": {
+        "type": "synthetic_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored for SafeGuard validation; not copied from the 24-case knowledge base."
+      },
+      "test_notes": "Unseen scenario. Some labels may need adjustment to match the exact taxonomy definitions; assess whether the engine can generalise beyond memorised case wording."
+    },
+    {
+      "test_id": "UNSEEN_SCAM_002",
+      "test_group": "synthetic_unseen_scam",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Fake merchant settlement support",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A person claiming to be merchant support says a payment is stuck and they need me to open my wallet menu."
+        },
+        {
+          "speaker": "caller",
+          "text": "Choose the option I tell you and approve the prompt. It is only to release the payment to your business."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP002"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT007"
+        ],
+        "expected_risk": "high",
+        "expected_reason": "Claimed support role guides the user through an unexplained wallet action."
+      },
+      "source": {
+        "type": "synthetic_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored for SafeGuard validation; not copied from the 24-case knowledge base."
+      },
+      "test_notes": "Unseen scenario. Some labels may need adjustment to match the exact taxonomy definitions; assess whether the engine can generalise beyond memorised case wording."
+    },
+    {
+      "test_id": "UNSEEN_SCAM_003",
+      "test_group": "synthetic_unseen_scam",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Fake wrong-number family emergency",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A WhatsApp number says it is my nephew using a new phone. They say they are stranded and need me to send MoMo immediately."
+        },
+        {
+          "speaker": "caller",
+          "text": "Please don't call my old number; the phone is with someone else. I will explain later."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [],
+        "behaviour_tactic_ids": [
+          "BT004",
+          "BT005"
+        ],
+        "expected_risk": "high",
+        "expected_reason": "Unverified identity, emotional pressure and discouraging independent verification. Pattern mapping is intentionally left open for engine discovery."
+      },
+      "source": {
+        "type": "synthetic_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored for SafeGuard validation; not copied from the 24-case knowledge base."
+      },
+      "test_notes": "Unseen scenario. Some labels may need adjustment to match the exact taxonomy definitions; assess whether the engine can generalise beyond memorised case wording."
+    },
+    {
+      "test_id": "UNSEEN_SCAM_004",
+      "test_group": "synthetic_unseen_scam",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Fake cash-out confirmation link",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A buyer says they have paid for my item and sends a link to confirm the MoMo payment."
+        },
+        {
+          "speaker": "buyer",
+          "text": "Open the page and enter your wallet number and the code you receive so the money can reflect."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP006"
+        ],
+        "behaviour_tactic_ids": [
+          "BT007"
+        ],
+        "expected_risk": "critical",
+        "expected_reason": "A payment-confirmation link requests sensitive verification information."
+      },
+      "source": {
+        "type": "synthetic_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored for SafeGuard validation; not copied from the 24-case knowledge base."
+      },
+      "test_notes": "Unseen scenario. Some labels may need adjustment to match the exact taxonomy definitions; assess whether the engine can generalise beyond memorised case wording."
+    },
+    {
+      "test_id": "UNSEEN_SCAM_005",
+      "test_group": "synthetic_unseen_scam",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Fake loan approval fee",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "I applied for a quick loan online. Someone called saying my loan is approved but I must pay a processing fee to a personal wallet first."
+        },
+        {
+          "speaker": "caller",
+          "text": "Send it now and your loan will be released within ten minutes."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP008"
+        ],
+        "behaviour_tactic_ids": [
+          "BT006",
+          "BT007"
+        ],
+        "expected_risk": "high",
+        "expected_reason": "Advance-fee demand with a promised financial reward and pressure to act."
+      },
+      "source": {
+        "type": "synthetic_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored for SafeGuard validation; not copied from the 24-case knowledge base."
+      },
+      "test_notes": "Unseen scenario. Some labels may need adjustment to match the exact taxonomy definitions; assess whether the engine can generalise beyond memorised case wording."
+    },
+    {
+      "test_id": "UNSEEN_SCAM_006",
+      "test_group": "synthetic_unseen_scam",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Fake bank-to-wallet security test",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A caller says they work with my bank's security team and that they are testing whether my wallet is linked correctly."
+        },
+        {
+          "speaker": "caller",
+          "text": "Send a small amount to this test wallet. We will reverse it after the check."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP002"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT003"
+        ],
+        "expected_risk": "high",
+        "expected_reason": "Authority claim plus request for a transfer under a fabricated test procedure."
+      },
+      "source": {
+        "type": "synthetic_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored for SafeGuard validation; not copied from the 24-case knowledge base."
+      },
+      "test_notes": "Unseen scenario. Some labels may need adjustment to match the exact taxonomy definitions; assess whether the engine can generalise beyond memorised case wording."
+    },
+    {
+      "test_id": "UNSEEN_SCAM_007",
+      "test_group": "synthetic_unseen_scam",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Fake delivery refund through wallet menu",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A caller says a delivery company accidentally charged me twice and they can refund the extra charge."
+        },
+        {
+          "speaker": "caller",
+          "text": "Dial this service code and follow the prompts. Do not cancel halfway or the refund will fail."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP001"
+        ],
+        "behaviour_tactic_ids": [
+          "BT003",
+          "BT007"
+        ],
+        "expected_risk": "high",
+        "expected_reason": "Unverified refund story and guided USSD procedure."
+      },
+      "source": {
+        "type": "synthetic_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored for SafeGuard validation; not copied from the 24-case knowledge base."
+      },
+      "test_notes": "Unseen scenario. Some labels may need adjustment to match the exact taxonomy definitions; assess whether the engine can generalise beyond memorised case wording."
+    },
+    {
+      "test_id": "UNSEEN_SCAM_008",
+      "test_group": "synthetic_unseen_scam",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Impersonated workplace payroll update",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A message in our staff WhatsApp group says payroll is changing and everyone must privately send their wallet number and PIN to the payroll officer."
+        },
+        {
+          "speaker": "sender",
+          "text": "This is an internal process. Do not ask the group because it will delay salary processing."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP002",
+          "FP005"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT007"
+        ],
+        "expected_risk": "critical",
+        "expected_reason": "Possible impersonation, credential request and isolation from independent verification."
+      },
+      "source": {
+        "type": "synthetic_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored for SafeGuard validation; not copied from the 24-case knowledge base."
+      },
+      "test_notes": "Unseen scenario. Some labels may need adjustment to match the exact taxonomy definitions; assess whether the engine can generalise beyond memorised case wording."
+    },
+    {
+      "test_id": "UNSEEN_SCAM_009",
+      "test_group": "synthetic_unseen_scam",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Fake charity matching donation",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A social media account says a donor will triple any MoMo donation if I send it before the campaign closes."
+        },
+        {
+          "speaker": "account",
+          "text": "Send to this personal wallet and forward the transaction message as proof."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP009"
+        ],
+        "behaviour_tactic_ids": [
+          "BT006",
+          "BT007"
+        ],
+        "expected_risk": "medium",
+        "expected_reason": "Unverified reward promise and request to transfer to a personal wallet. Verify the organisation independently."
+      },
+      "source": {
+        "type": "synthetic_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored for SafeGuard validation; not copied from the 24-case knowledge base."
+      },
+      "test_notes": "Unseen scenario. Some labels may need adjustment to match the exact taxonomy definitions; assess whether the engine can generalise beyond memorised case wording."
+    },
+    {
+      "test_id": "UNSEEN_SCAM_010",
+      "test_group": "synthetic_unseen_scam",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "SIM-swap recovery impersonation",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "After my phone lost network, someone called claiming they can restore my number and protect my wallet."
+        },
+        {
+          "speaker": "caller",
+          "text": "Give me the OTP sent to your other number so I can reverse the SIM change."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP002",
+          "FP004"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT002"
+        ],
+        "expected_risk": "critical",
+        "expected_reason": "Credential harvesting framed as account recovery after a suspicious service disruption."
+      },
+      "source": {
+        "type": "synthetic_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored for SafeGuard validation; not copied from the 24-case knowledge base."
+      },
+      "test_notes": "Unseen scenario. Some labels may need adjustment to match the exact taxonomy definitions; assess whether the engine can generalise beyond memorised case wording."
+    },
+    {
+      "test_id": "UNSEEN_SCAM_011",
+      "test_group": "synthetic_unseen_scam",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Fake investment group payout",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A Telegram group says I have earned a profit from a MoMo investment pool, but I must pay a withdrawal activation charge."
+        },
+        {
+          "speaker": "admin",
+          "text": "The payment must come from your own wallet. Once it reflects, your profit will be released."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP008",
+          "FP009"
+        ],
+        "behaviour_tactic_ids": [
+          "BT006",
+          "BT007"
+        ],
+        "expected_risk": "high",
+        "expected_reason": "Advance payment demanded to release a promised return."
+      },
+      "source": {
+        "type": "synthetic_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored for SafeGuard validation; not copied from the 24-case knowledge base."
+      },
+      "test_notes": "Unseen scenario. Some labels may need adjustment to match the exact taxonomy definitions; assess whether the engine can generalise beyond memorised case wording."
+    },
+    {
+      "test_id": "UNSEEN_SCAM_012",
+      "test_group": "synthetic_unseen_scam",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Caller asks agent to bypass normal till process",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A caller claiming to be a supervisor says the merchant till is having a system issue and asks me, as an agent, to process a customer's cash-out using a different wallet."
+        },
+        {
+          "speaker": "caller",
+          "text": "Do it quietly so the queue keeps moving. I will take responsibility."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": true,
+        "fraud_pattern_ids": [
+          "FP002",
+          "FP010"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT007"
+        ],
+        "expected_risk": "high",
+        "expected_reason": "Authority claim, process deviation and pressure to bypass normal controls. Confirm whether these pattern IDs fit the implemented taxonomy."
+      },
+      "source": {
+        "type": "synthetic_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored for SafeGuard validation; not copied from the 24-case knowledge base."
+      },
+      "test_notes": "Unseen scenario. Some labels may need adjustment to match the exact taxonomy definitions; assess whether the engine can generalise beyond memorised case wording."
+    },
+    {
+      "test_id": "LEGIT_001",
+      "test_group": "legitimate_conversation",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Customer independently checks a wallet balance",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "I received a payment notification, but I have not sent or returned anything. I opened my official wallet app and the balance shows the amount."
+        },
+        {
+          "speaker": "user",
+          "text": "I will check the transaction history too before I confirm the sale."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": false,
+        "fraud_pattern_ids": [],
+        "behaviour_tactic_ids": [],
+        "expected_risk": "low",
+        "expected_reason": "A user independently verifies a payment through the official app."
+      },
+      "source": {
+        "type": "synthetic_benign_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored as a benign control scenario for SafeGuard validation."
+      },
+      "test_notes": "Do not flag solely because a payment, unknown number, refund, promotion or request for help is mentioned. Look at context and verification."
+    },
+    {
+      "test_id": "LEGIT_002",
+      "test_group": "legitimate_conversation",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Provider support contacted through official app",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "I opened the provider's official app and used the support option to ask why a transaction is pending."
+        },
+        {
+          "speaker": "agent",
+          "text": "Please never share your PIN or OTP. We can check the transaction reference without those details."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": false,
+        "fraud_pattern_ids": [],
+        "behaviour_tactic_ids": [],
+        "expected_risk": "low",
+        "expected_reason": "User-initiated support through an official channel; no secret requested."
+      },
+      "source": {
+        "type": "synthetic_benign_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored as a benign control scenario for SafeGuard validation."
+      },
+      "test_notes": "Do not flag solely because a payment, unknown number, refund, promotion or request for help is mentioned. Look at context and verification."
+    },
+    {
+      "test_id": "LEGIT_003",
+      "test_group": "legitimate_conversation",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Family member verifies a new number",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "My sister messaged from a new number asking for transport money."
+        },
+        {
+          "speaker": "user",
+          "text": "I called her usual number and confirmed with her before sending anything."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": false,
+        "fraud_pattern_ids": [],
+        "behaviour_tactic_ids": [],
+        "expected_risk": "low",
+        "expected_reason": "A request for money is independently verified before action."
+      },
+      "source": {
+        "type": "synthetic_benign_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored as a benign control scenario for SafeGuard validation."
+      },
+      "test_notes": "Do not flag solely because a payment, unknown number, refund, promotion or request for help is mentioned. Look at context and verification."
+    },
+    {
+      "test_id": "LEGIT_004",
+      "test_group": "legitimate_conversation",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Merchant confirms payment in wallet history",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A customer says they have paid. I checked my merchant wallet transaction history and the payment is there."
+        },
+        {
+          "speaker": "user",
+          "text": "I will release the item now."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": false,
+        "fraud_pattern_ids": [],
+        "behaviour_tactic_ids": [],
+        "expected_risk": "low",
+        "expected_reason": "Normal transaction with independent confirmation."
+      },
+      "source": {
+        "type": "synthetic_benign_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored as a benign control scenario for SafeGuard validation."
+      },
+      "test_notes": "Do not flag solely because a payment, unknown number, refund, promotion or request for help is mentioned. Look at context and verification."
+    },
+    {
+      "test_id": "LEGIT_005",
+      "test_group": "legitimate_conversation",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "User refuses to share OTP",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A person asked for my OTP, so I refused and ended the call."
+        },
+        {
+          "speaker": "user",
+          "text": "I contacted the provider using the number printed on its official website."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": false,
+        "fraud_pattern_ids": [],
+        "behaviour_tactic_ids": [],
+        "expected_risk": "low",
+        "expected_reason": "Safe response to a suspicious request; conversation describes protective behaviour."
+      },
+      "source": {
+        "type": "synthetic_benign_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored as a benign control scenario for SafeGuard validation."
+      },
+      "test_notes": "Do not flag solely because a payment, unknown number, refund, promotion or request for help is mentioned. Look at context and verification."
+    },
+    {
+      "test_id": "LEGIT_006",
+      "test_group": "legitimate_conversation",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Routine cash transfer to known relative",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "I am sending GHS 50 to my mother using the saved contact I have used for years."
+        },
+        {
+          "speaker": "user",
+          "text": "I checked the recipient name and number before confirming."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": false,
+        "fraud_pattern_ids": [],
+        "behaviour_tactic_ids": [],
+        "expected_risk": "low",
+        "expected_reason": "Routine transfer with recipient verification."
+      },
+      "source": {
+        "type": "synthetic_benign_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored as a benign control scenario for SafeGuard validation."
+      },
+      "test_notes": "Do not flag solely because a payment, unknown number, refund, promotion or request for help is mentioned. Look at context and verification."
+    },
+    {
+      "test_id": "LEGIT_007",
+      "test_group": "legitimate_conversation",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Real promotional message with no action request",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "I received a message saying the provider has a weekend data bundle promotion."
+        },
+        {
+          "speaker": "user",
+          "text": "It tells me to check the offer inside the official app. It does not ask for my PIN or a transfer."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": false,
+        "fraud_pattern_ids": [],
+        "behaviour_tactic_ids": [],
+        "expected_risk": "low",
+        "expected_reason": "Promotion directs user to independently accessed official app."
+      },
+      "source": {
+        "type": "synthetic_benign_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored as a benign control scenario for SafeGuard validation."
+      },
+      "test_notes": "Do not flag solely because a payment, unknown number, refund, promotion or request for help is mentioned. Look at context and verification."
+    },
+    {
+      "test_id": "LEGIT_008",
+      "test_group": "legitimate_conversation",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Agent follows standard reversal procedure",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A customer says they sent money to the wrong number. I told them to contact the provider through the official dispute process."
+        },
+        {
+          "speaker": "user",
+          "text": "I did not ask them to send money to me or share any code."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": false,
+        "fraud_pattern_ids": [],
+        "behaviour_tactic_ids": [],
+        "expected_risk": "low",
+        "expected_reason": "Agent directs customer to official dispute process without taking control."
+      },
+      "source": {
+        "type": "synthetic_benign_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored as a benign control scenario for SafeGuard validation."
+      },
+      "test_notes": "Do not flag solely because a payment, unknown number, refund, promotion or request for help is mentioned. Look at context and verification."
+    },
+    {
+      "test_id": "LEGIT_009",
+      "test_group": "legitimate_conversation",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Payment is pending and user waits",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "My wallet says the transaction is pending. The recipient has not received it."
+        },
+        {
+          "speaker": "user",
+          "text": "I will wait for the official status update and not repeat the transfer yet."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": false,
+        "fraud_pattern_ids": [],
+        "behaviour_tactic_ids": [],
+        "expected_risk": "low",
+        "expected_reason": "Cautious handling of a pending transaction."
+      },
+      "source": {
+        "type": "synthetic_benign_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored as a benign control scenario for SafeGuard validation."
+      },
+      "test_notes": "Do not flag solely because a payment, unknown number, refund, promotion or request for help is mentioned. Look at context and verification."
+    },
+    {
+      "test_id": "LEGIT_010",
+      "test_group": "legitimate_conversation",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Employer announces payroll date",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "Our HR officer posted in the verified company channel that salaries will be paid on Friday."
+        },
+        {
+          "speaker": "user",
+          "text": "The message only gives the date and says to contact HR through the usual office channel if there is a problem."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": false,
+        "fraud_pattern_ids": [],
+        "behaviour_tactic_ids": [],
+        "expected_risk": "low",
+        "expected_reason": "Routine organisational notice without credential or payment request."
+      },
+      "source": {
+        "type": "synthetic_benign_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored as a benign control scenario for SafeGuard validation."
+      },
+      "test_notes": "Do not flag solely because a payment, unknown number, refund, promotion or request for help is mentioned. Look at context and verification."
+    },
+    {
+      "test_id": "LEGIT_011",
+      "test_group": "legitimate_conversation",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Customer asks how to protect wallet",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "How can I keep my MoMo account safe?"
+        },
+        {
+          "speaker": "user",
+          "text": "I want to learn how to set a strong PIN and recognise fake support calls."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": false,
+        "fraud_pattern_ids": [],
+        "behaviour_tactic_ids": [],
+        "expected_risk": "low",
+        "expected_reason": "General security education request."
+      },
+      "source": {
+        "type": "synthetic_benign_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored as a benign control scenario for SafeGuard validation."
+      },
+      "test_notes": "Do not flag solely because a payment, unknown number, refund, promotion or request for help is mentioned. Look at context and verification."
+    },
+    {
+      "test_id": "LEGIT_012",
+      "test_group": "legitimate_conversation",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Refund processed by merchant through original channel",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A shop cancelled my order and processed a refund through the same payment provider."
+        },
+        {
+          "speaker": "user",
+          "text": "I can see the reversal in my official transaction history."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": false,
+        "fraud_pattern_ids": [],
+        "behaviour_tactic_ids": [],
+        "expected_risk": "low",
+        "expected_reason": "Refund independently visible in transaction history."
+      },
+      "source": {
+        "type": "synthetic_benign_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored as a benign control scenario for SafeGuard validation."
+      },
+      "test_notes": "Do not flag solely because a payment, unknown number, refund, promotion or request for help is mentioned. Look at context and verification."
+    },
+    {
+      "test_id": "LEGIT_013",
+      "test_group": "legitimate_conversation",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Friend shares a public fundraising page",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "My friend shared a registered charity's public fundraising page."
+        },
+        {
+          "speaker": "user",
+          "text": "I checked the charity's official website and decided whether to donate. No one promised to multiply my money."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": false,
+        "fraud_pattern_ids": [],
+        "behaviour_tactic_ids": [],
+        "expected_risk": "low",
+        "expected_reason": "Donation decision based on independent checks; no suspicious inducement."
+      },
+      "source": {
+        "type": "synthetic_benign_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored as a benign control scenario for SafeGuard validation."
+      },
+      "test_notes": "Do not flag solely because a payment, unknown number, refund, promotion or request for help is mentioned. Look at context and verification."
+    },
+    {
+      "test_id": "LEGIT_014",
+      "test_group": "legitimate_conversation",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "User asks about an unknown missed call",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "I missed a call from a number I do not know. There was no voicemail or message."
+        },
+        {
+          "speaker": "user",
+          "text": "I have not called back or shared any information."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": false,
+        "fraud_pattern_ids": [],
+        "behaviour_tactic_ids": [],
+        "expected_risk": "low",
+        "expected_reason": "Unknown number alone is insufficient evidence of fraud."
+      },
+      "source": {
+        "type": "synthetic_benign_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored as a benign control scenario for SafeGuard validation."
+      },
+      "test_notes": "Do not flag solely because a payment, unknown number, refund, promotion or request for help is mentioned. Look at context and verification."
+    },
+    {
+      "test_id": "LEGIT_015",
+      "test_group": "legitimate_conversation",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Merchant sends normal invoice",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A supplier sent an invoice with the business name, amount and payment details."
+        },
+        {
+          "speaker": "user",
+          "text": "I verified the account details with the supplier using our existing contact before paying."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": false,
+        "fraud_pattern_ids": [],
+        "behaviour_tactic_ids": [],
+        "expected_risk": "low",
+        "expected_reason": "Business payment with independent verification."
+      },
+      "source": {
+        "type": "synthetic_benign_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored as a benign control scenario for SafeGuard validation."
+      },
+      "test_notes": "Do not flag solely because a payment, unknown number, refund, promotion or request for help is mentioned. Look at context and verification."
+    },
+    {
+      "test_id": "LEGIT_016",
+      "test_group": "legitimate_conversation",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Official agent explains a fee without requesting secrets",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "I called the provider's published customer-care line to ask about a transfer fee."
+        },
+        {
+          "speaker": "agent",
+          "text": "The fee is shown in the official fee schedule. You can review it before deciding whether to proceed."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": false,
+        "fraud_pattern_ids": [],
+        "behaviour_tactic_ids": [],
+        "expected_risk": "low",
+        "expected_reason": "User-initiated official support and transparent fee explanation."
+      },
+      "source": {
+        "type": "synthetic_benign_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored as a benign control scenario for SafeGuard validation."
+      },
+      "test_notes": "Do not flag solely because a payment, unknown number, refund, promotion or request for help is mentioned. Look at context and verification."
+    },
+    {
+      "test_id": "LEGIT_017",
+      "test_group": "legitimate_conversation",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "User receives a genuine transaction receipt",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "I sent money to the correct saved recipient and received an SMS receipt."
+        },
+        {
+          "speaker": "user",
+          "text": "I also see the debit in my wallet history."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": false,
+        "fraud_pattern_ids": [],
+        "behaviour_tactic_ids": [],
+        "expected_risk": "low",
+        "expected_reason": "Consistent transaction evidence; no unsolicited request."
+      },
+      "source": {
+        "type": "synthetic_benign_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored as a benign control scenario for SafeGuard validation."
+      },
+      "test_notes": "Do not flag solely because a payment, unknown number, refund, promotion or request for help is mentioned. Look at context and verification."
+    },
+    {
+      "test_id": "LEGIT_018",
+      "test_group": "legitimate_conversation",
+      "source_case_id": null,
+      "country": "Ghana_context_synthetic",
+      "title": "Family member asks for help but accepts verification",
+      "input_type": "multi_turn_conversation",
+      "conversation": [
+        {
+          "speaker": "user",
+          "text": "A cousin asked me for emergency help from a new number."
+        },
+        {
+          "speaker": "user",
+          "text": "I said I would call the family first to confirm. They agreed and did not pressure me."
+        }
+      ],
+      "expected": {
+        "fraud_indicated": false,
+        "fraud_pattern_ids": [],
+        "behaviour_tactic_ids": [],
+        "expected_risk": "low",
+        "expected_reason": "Potentially unusual request handled with verification; no coercion observed."
+      },
+      "source": {
+        "type": "synthetic_benign_test_scenario",
+        "verification_status": "not_a_real_incident",
+        "source_summary": "Authored as a benign control scenario for SafeGuard validation."
+      },
+      "test_notes": "Do not flag solely because a payment, unknown number, refund, promotion or request for help is mentioned. Look at context and verification."
+    }
+  ]
+}

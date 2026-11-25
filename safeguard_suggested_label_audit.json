@@ -1,0 +1,2096 @@
+[
+  {
+    "record_id": "SYN-003446",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, this is Ama Mensah. We are about to suspend your wallet. Call us back immediately."
+  },
+  {
+    "record_id": "SYN-007754",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "The network is slow. Let me use my float to pay you, then you reverse to this number."
+  },
+  {
+    "record_id": "SYN-007983",
+    "suggested_label": "FP010",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, to cash out faster, just approve the prompt I am sending from the agent phone."
+  },
+  {
+    "record_id": "SYN-013651",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "We are migrating wallets. Enter your PIN on the new handset I will guide you."
+  },
+  {
+    "record_id": "SYN-008597",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your brother. My phone got stolen. Please send GHS 100 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-008597",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your brother. My phone got stolen. Please send GHS 100 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-006663",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, this is Osei Adjei. I am at the agent but the network is down. Can you send GHS 1000 to this other number instead?"
+  },
+  {
+    "record_id": "SYN-007177",
+    "suggested_label": "FP010",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, to cash out faster, just approve the prompt I am sending from the agent phone."
+  },
+  {
+    "record_id": "SYN-013590",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "For the upgrade, allow remote access temporarily by approving the prompt."
+  },
+  {
+    "record_id": "SYN-008594",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Ama Owusu, this is Kojo Owusu. I am stranded at the station. Can you MoMo me GHS 50?"
+  },
+  {
+    "record_id": "SYN-000823",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, AirtelTigo here. Our system shows an overpayment of GHS 1500 that needs to be credited back to you."
+  },
+  {
+    "record_id": "SYN-004001",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Your number won today's MoMo jackpot. Reply to process the GHS 1250."
+  },
+  {
+    "record_id": "SYN-006580",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Quick change: send the GHS 300 to 0575439636 so I can cash out nearby."
+  },
+  {
+    "record_id": "SYN-004389",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Congratulations! You have won GHS 2000 in the AirtelTigo promo. Claim now."
+  },
+  {
+    "record_id": "SYN-001758",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, my name is Osei Tetteh, I am a senior officer at Glo Mobile Money. We are calling about your account."
+  },
+  {
+    "record_id": "SYN-000336",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, MTN here. Our system shows an overpayment of GHS 300 that needs to be credited back to you."
+  },
+  {
+    "record_id": "SYN-001763",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good day. This is MTN fraud department. We detected unusual activity."
+  },
+  {
+    "record_id": "SYN-009594",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Your account is locked. Visit this temporary agent portal and enter your details."
+  },
+  {
+    "record_id": "SYN-000788",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, calling about a failed transaction. You are due a refund of GHS 750. Can we process it now?"
+  },
+  {
+    "record_id": "SYN-012398",
+    "suggested_label": "FP011",
+    "review_decision": "supported",
+    "evidence_notes": "Customer, the cash is ready. But the system needs you to reverse GHS 200 first so I can balance the float."
+  },
+  {
+    "record_id": "SYN-010918",
+    "suggested_label": "FP010",
+    "review_decision": "supported",
+    "evidence_notes": "I sent the money request. Approve so we can finish the deal."
+  },
+  {
+    "record_id": "SYN-006722",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, this is Nana Quaye. I am at the agent but the network is down. Can you send GHS 500 to this other number instead?"
+  },
+  {
+    "record_id": "SYN-010132",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Your account is locked. Visit this temporary agent portal and enter your details."
+  },
+  {
+    "record_id": "SYN-010089",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Your account is locked. Visit this temporary agent portal and enter your details."
+  },
+  {
+    "record_id": "SYN-003663",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Your number won today's MoMo jackpot. Reply to process the GHS 10000."
+  },
+  {
+    "record_id": "SYN-007514",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "Customer, come. The system is showing error. Give me your phone, I will complete the GHS 2000 for you."
+  },
+  {
+    "record_id": "SYN-013173",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "To activate the new MoMo feature, we need to register this device against your wallet."
+  },
+  {
+    "record_id": "SYN-009133",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Call me from the old number or I won't send."
+  },
+  {
+    "record_id": "SYN-009133",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Mensah Gyasi, this is Kojo Darko. I am stranded at the station. Can you MoMo me GHS 2500?"
+  },
+  {
+    "record_id": "SYN-008769",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your uncle. My phone got stolen. Please send GHS 150 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-008769",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your uncle. My phone got stolen. Please send GHS 150 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-007705",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "Customer, come. The system is showing error. Give me your phone, I will complete the GHS 1500 for you."
+  },
+  {
+    "record_id": "SYN-005935",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Quick change: send the GHS 300 to 0268829833 so I can cash out nearby."
+  },
+  {
+    "record_id": "SYN-013221",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "We are migrating wallets. Enter your PIN on the new handset I will guide you."
+  },
+  {
+    "record_id": "SYN-000546",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Please, this is Gyan Hagan. Your last transfer bounced and GHS 300 is waiting to be returned."
+  },
+  {
+    "record_id": "SYN-013038",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "We are migrating wallets. Enter your PIN on the new handset I will guide you."
+  },
+  {
+    "record_id": "SYN-012854",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "We are migrating wallets. Enter your PIN on the new handset I will guide you."
+  },
+  {
+    "record_id": "SYN-004374",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Your number won today's MoMo jackpot. Reply to process the GHS 600."
+  },
+  {
+    "record_id": "SYN-007133",
+    "suggested_label": "FP010",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, to cash out faster, just approve the prompt I am sending from the agent phone."
+  },
+  {
+    "record_id": "SYN-004195",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Congratulations! You have won GHS 30000 in the MTN promo. Claim now."
+  },
+  {
+    "record_id": "SYN-007041",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "For the deposit, type your PIN on my device. It is safer."
+  },
+  {
+    "record_id": "SYN-006678",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, this is Bonsu Fosu. I am at the agent but the network is down. Can you send GHS 150 to this other number instead?"
+  },
+  {
+    "record_id": "SYN-008819",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your uncle. My phone got stolen. Please send GHS 1500 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-008819",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your uncle. My phone got stolen. Please send GHS 1500 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-000797",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Abena Inkoom from MTN customer care. We have a pending refund of GHS 150 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-000797",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Abena Inkoom from MTN customer care. We have a pending refund of GHS 150 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-000757",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Osei Sarpong from Glo customer care. We have a pending refund of GHS 5000 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-000757",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Osei Sarpong from Glo customer care. We have a pending refund of GHS 5000 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-001960",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good day. This is Glo fraud department. We detected unusual activity."
+  },
+  {
+    "record_id": "SYN-008575",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your uncle. My phone got stolen. Please send GHS 50 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-008575",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your uncle. My phone got stolen. Please send GHS 50 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-007024",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "The network is slow. Let me use my float to pay you, then you reverse to this number."
+  },
+  {
+    "record_id": "SYN-007885",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "The network is slow. Let me use my float to pay you, then you reverse to this number."
+  },
+  {
+    "record_id": "SYN-008595",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Adwoa Gyan, this is Akua Annan. I am stranded at the station. Can you MoMo me GHS 2500?"
+  },
+  {
+    "record_id": "SYN-012377",
+    "suggested_label": "FP011",
+    "review_decision": "supported",
+    "evidence_notes": "Customer, the cash is ready. But the system needs you to reverse GHS 200 first so I can balance the float."
+  },
+  {
+    "record_id": "SYN-013787",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, your account can now be accessed from a second phone. Confirm by sharing the OTP."
+  },
+  {
+    "record_id": "SYN-003774",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Limited offer: Get GHS 100 free credit by completing a short verification."
+  },
+  {
+    "record_id": "SYN-013055",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, your account can now be accessed from a second phone. Confirm by sharing the OTP."
+  },
+  {
+    "record_id": "SYN-012853",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "We are migrating wallets. Enter your PIN on the new handset I will guide you."
+  },
+  {
+    "record_id": "SYN-008052",
+    "suggested_label": "FP010",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, to cash out faster, just approve the prompt I am sending from the agent phone."
+  },
+  {
+    "record_id": "SYN-008052",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, to cash out faster, just approve the prompt I am sending from the agent phone."
+  },
+  {
+    "record_id": "SYN-013510",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "We are migrating wallets. Enter your PIN on the new handset I will guide you."
+  },
+  {
+    "record_id": "SYN-001753",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, my name is Gyasi Annan, I am a senior officer at AirtelTigo Mobile Money. We are calling about your account."
+  },
+  {
+    "record_id": "SYN-008573",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Esi Addo, this is Baah Danso. I am stranded at the station. Can you MoMo me GHS 50?"
+  },
+  {
+    "record_id": "SYN-004320",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Congratulations! You have won GHS 50000 in the AirtelTigo promo. Claim now."
+  },
+  {
+    "record_id": "SYN-011834",
+    "suggested_label": "FP011",
+    "review_decision": "supported",
+    "evidence_notes": "Customer, the cash is ready. But the system needs you to reverse GHS 5000 first so I can balance the float."
+  },
+  {
+    "record_id": "SYN-008067",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "The network is slow. Let me use my float to pay you, then you reverse to this number."
+  },
+  {
+    "record_id": "SYN-001067",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Doku Jallow from AirtelTigo customer care. We have a pending refund of GHS 200 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-001067",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Doku Jallow from AirtelTigo customer care. We have a pending refund of GHS 200 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-003720",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Your number won today's MoMo jackpot. Reply to process the GHS 1000."
+  },
+  {
+    "record_id": "SYN-006903",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Quick change: send the GHS 5000 to 0503985062 so I can cash out nearby."
+  },
+  {
+    "record_id": "SYN-001577",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good day. This is AirtelTigo fraud department. We detected unusual activity."
+  },
+  {
+    "record_id": "SYN-007757",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "The network is slow. Let me use my float to pay you, then you reverse to this number."
+  },
+  {
+    "record_id": "SYN-011407",
+    "suggested_label": "FP010",
+    "review_decision": "supported",
+    "evidence_notes": "I just initiated the transfer of GHS 500. Please approve the prompt that appears."
+  },
+  {
+    "record_id": "SYN-012993",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "To activate the new MoMo feature, we need to register this device against your wallet."
+  },
+  {
+    "record_id": "SYN-000636",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, calling about a failed transaction. You are due a refund of GHS 500. Can we process it now?"
+  },
+  {
+    "record_id": "SYN-009264",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your sister. My phone got stolen. Please send GHS 2500 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-009264",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your sister. My phone got stolen. Please send GHS 2500 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-013179",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "We are migrating wallets. Enter your PIN on the new handset I will guide you."
+  },
+  {
+    "record_id": "SYN-003992",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Congratulations! You have won GHS 1000 in the AirtelTigo promo. Claim now."
+  },
+  {
+    "record_id": "SYN-009307",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your auntie. My phone got stolen. Please send GHS 50 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-009307",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your auntie. My phone got stolen. Please send GHS 50 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-010957",
+    "suggested_label": "FP010",
+    "review_decision": "supported",
+    "evidence_notes": "I just initiated the transfer of GHS 2000. Please approve the prompt that appears."
+  },
+  {
+    "record_id": "SYN-010092",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Call this number back: 0566213224 and follow the automated steps."
+  },
+  {
+    "record_id": "SYN-002130",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, my name is Cobbina Annan, I am a senior officer at MTN Mobile Money. We are calling about your account."
+  },
+  {
+    "record_id": "SYN-013188",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "To activate the new MoMo feature, we need to register this device against your wallet."
+  },
+  {
+    "record_id": "SYN-000173",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Please, this is Tetteh Nkrumah. Your last transfer bounced and GHS 2000 is waiting to be returned."
+  },
+  {
+    "record_id": "SYN-000781",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, calling about a failed transaction. You are due a refund of GHS 1500. Can we process it now?"
+  },
+  {
+    "record_id": "SYN-009909",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Your account is locked. Visit this temporary agent portal and enter your details."
+  },
+  {
+    "record_id": "SYN-001838",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, my name is Kweku Boateng, I am a senior officer at AirtelTigo Mobile Money. We are calling about your account."
+  },
+  {
+    "record_id": "SYN-001488",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, my name is Jnr Annan, I am a senior officer at AirtelTigo Mobile Money. We are calling about your account."
+  },
+  {
+    "record_id": "SYN-009520",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Your account is locked. Visit this temporary agent portal and enter your details."
+  },
+  {
+    "record_id": "SYN-007754",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "The network is slow. Let me use my float to pay you, then you reverse to this number."
+  },
+  {
+    "record_id": "SYN-007958",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "Customer, come. The system is showing error. Give me your phone, I will complete the GHS 1000 for you."
+  },
+  {
+    "record_id": "SYN-007994",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "The network is slow. Let me use my float to pay you, then you reverse to this number."
+  },
+  {
+    "record_id": "SYN-003999",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "Share your mobile money PIN so we can deposit the winnings directly."
+  },
+  {
+    "record_id": "SYN-003999",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Your number won today's MoMo jackpot. Reply to process the GHS 2500."
+  },
+  {
+    "record_id": "SYN-007429",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "For the deposit, type your PIN on my device. It is safer."
+  },
+  {
+    "record_id": "SYN-000238",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, calling about a failed transaction. You are due a refund of GHS 400. Can we process it now?"
+  },
+  {
+    "record_id": "SYN-004356",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Adjei Gyan, you have been selected for a special airtime and cash reward."
+  },
+  {
+    "record_id": "SYN-002818",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, this is Bonsu Sarpong. We are about to suspend your wallet. Call us back immediately."
+  },
+  {
+    "record_id": "SYN-005993",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, this is Asante Ibrahim. I am at the agent but the network is down. Can you send GHS 100 to this other number instead?"
+  },
+  {
+    "record_id": "SYN-002832",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, this is Kojo Frimpong. We are about to suspend your wallet. Call us back immediately."
+  },
+  {
+    "record_id": "SYN-009480",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Call this number back: 0207721392 and follow the automated steps."
+  },
+  {
+    "record_id": "SYN-007175",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "Customer, come. The system is showing error. Give me your phone, I will complete the GHS 5000 for you."
+  },
+  {
+    "record_id": "SYN-003599",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "Share your mobile money PIN so we can deposit the winnings directly."
+  },
+  {
+    "record_id": "SYN-003599",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Congratulations! You have won GHS 7500 in the Vodafone promo. Claim now."
+  },
+  {
+    "record_id": "SYN-001763",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good day. This is MTN fraud department. We detected unusual activity."
+  },
+  {
+    "record_id": "SYN-002406",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "To stop the block, provide the OTP sent to your phone right now."
+  },
+  {
+    "record_id": "SYN-002406",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, this is Kojo Gyasi. We are about to suspend your wallet. Call us back immediately."
+  },
+  {
+    "record_id": "SYN-004023",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Your number won today's MoMo jackpot. Reply to process the GHS 2000."
+  },
+  {
+    "record_id": "SYN-004362",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Kwame Hodzi, you have been selected for a special airtime and cash reward."
+  },
+  {
+    "record_id": "SYN-004824",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Here is the code: wait, no I won't."
+  },
+  {
+    "record_id": "SYN-012090",
+    "suggested_label": "FP011",
+    "review_decision": "supported",
+    "evidence_notes": "The machine is offline. Give me the cash, I will deposit it into your wallet when network returns."
+  },
+  {
+    "record_id": "SYN-000412",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, Glo here. Our system shows an overpayment of GHS 2000 that needs to be credited back to you."
+  },
+  {
+    "record_id": "SYN-013963",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "To activate the new MoMo feature, we need to register this device against your wallet."
+  },
+  {
+    "record_id": "SYN-007063",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "Customer, come. The system is showing error. Give me your phone, I will complete the GHS 100 for you."
+  },
+  {
+    "record_id": "SYN-004057",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "Share your mobile money PIN so we can deposit the winnings directly."
+  },
+  {
+    "record_id": "SYN-004057",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Osei Jallow, you have been selected for a special airtime and cash reward."
+  },
+  {
+    "record_id": "SYN-003221",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Let me check with the real customer care."
+  },
+  {
+    "record_id": "SYN-003221",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, this is Papa Sarpong. We are about to suspend your wallet. Call us back immediately."
+  },
+  {
+    "record_id": "SYN-003569",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Maame Bonsu, you have been selected for a special airtime and cash reward."
+  },
+  {
+    "record_id": "SYN-007745",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "For the deposit, type your PIN on my device. It is safer."
+  },
+  {
+    "record_id": "SYN-010334",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Your account is locked. Visit this temporary agent portal and enter your details."
+  },
+  {
+    "record_id": "SYN-008280",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your sister. My phone got stolen. Please send GHS 3000 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-008280",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your sister. My phone got stolen. Please send GHS 3000 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-003708",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Congratulations! You have won GHS 2000 in the Glo promo. Claim now."
+  },
+  {
+    "record_id": "SYN-000535",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, Vodafone here. Our system shows an overpayment of GHS 200 that needs to be credited back to you."
+  },
+  {
+    "record_id": "SYN-007083",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "The network is slow. Let me use my float to pay you, then you reverse to this number."
+  },
+  {
+    "record_id": "SYN-004433",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Gyan Opoku, you have been selected for a special airtime and cash reward."
+  },
+  {
+    "record_id": "SYN-000372",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "To complete the refund I need you to confirm your mobile money PIN or the last 4 digits."
+  },
+  {
+    "record_id": "SYN-000372",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Please, this is Sarpong Lamptey. Your last transfer bounced and GHS 150 is waiting to be returned."
+  },
+  {
+    "record_id": "SYN-008017",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "The network is slow. Let me use my float to pay you, then you reverse to this number."
+  },
+  {
+    "record_id": "SYN-011964",
+    "suggested_label": "FP011",
+    "review_decision": "supported",
+    "evidence_notes": "The machine is offline. Give me the cash, I will deposit it into your wallet when network returns."
+  },
+  {
+    "record_id": "SYN-004609",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Limited offer: Get GHS 2500 free credit by completing a short verification."
+  },
+  {
+    "record_id": "SYN-003092",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, this is Kwesi Quaye. We are about to suspend your wallet. Call us back immediately."
+  },
+  {
+    "record_id": "SYN-006852",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Quick change: send the GHS 200 to 0571762495 so I can cash out nearby."
+  },
+  {
+    "record_id": "SYN-009715",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Your account is locked. Visit this temporary agent portal and enter your details."
+  },
+  {
+    "record_id": "SYN-008965",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your auntie. My phone got stolen. Please send GHS 400 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-008965",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your auntie. My phone got stolen. Please send GHS 400 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-006525",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Quick change: send the GHS 750 to 0264690280 so I can cash out nearby."
+  },
+  {
+    "record_id": "SYN-012666",
+    "suggested_label": "FP011",
+    "review_decision": "supported",
+    "evidence_notes": "The machine is offline. Give me the cash, I will deposit it into your wallet when network returns."
+  },
+  {
+    "record_id": "SYN-001029",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "To complete the refund I need you to confirm your mobile money PIN or the last 4 digits."
+  },
+  {
+    "record_id": "SYN-001029",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, MTN here. Our system shows an overpayment of GHS 100 that needs to be credited back to you."
+  },
+  {
+    "record_id": "SYN-007885",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "The network is slow. Let me use my float to pay you, then you reverse to this number."
+  },
+  {
+    "record_id": "SYN-001073",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Tetteh Boateng from Glo customer care. We have a pending refund of GHS 1500 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-001073",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Tetteh Boateng from Glo customer care. We have a pending refund of GHS 1500 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-010262",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Your account is locked. Visit this temporary agent portal and enter your details."
+  },
+  {
+    "record_id": "SYN-007997",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "The network is slow. Let me use my float to pay you, then you reverse to this number."
+  },
+  {
+    "record_id": "SYN-013231",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "We are migrating wallets. Enter your PIN on the new handset I will guide you."
+  },
+  {
+    "record_id": "SYN-013231",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "We are migrating wallets. Enter your PIN on the new handset I will guide you."
+  },
+  {
+    "record_id": "SYN-006803",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Quick change: send the GHS 200 to 0552065159 so I can cash out nearby."
+  },
+  {
+    "record_id": "SYN-011698",
+    "suggested_label": "FP011",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, take this bundle and give me the cash equivalent. I will load the airtime later."
+  },
+  {
+    "record_id": "SYN-006853",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Quick change: send the GHS 2000 to 0562452487 so I can cash out nearby."
+  },
+  {
+    "record_id": "SYN-010321",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Your account is locked. Visit this temporary agent portal and enter your details."
+  },
+  {
+    "record_id": "SYN-008398",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your brother. My phone got stolen. Please send GHS 250 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-008398",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your brother. My phone got stolen. Please send GHS 250 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-002550",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Urgent notice from Vodafone: Your mobile money account will be blocked in 30 minutes due to suspicious activity."
+  },
+  {
+    "record_id": "SYN-009073",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Call me from the old number or I won't send."
+  },
+  {
+    "record_id": "SYN-009073",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your sister. My phone got stolen. Please send GHS 100 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-009073",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your sister. My phone got stolen. Please send GHS 100 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-009327",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Call me from the old number or I won't send."
+  },
+  {
+    "record_id": "SYN-003100",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Urgent notice from MTN: Your mobile money account will be blocked in 30 minutes due to suspicious activity."
+  },
+  {
+    "record_id": "SYN-007757",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "The network is slow. Let me use my float to pay you, then you reverse to this number."
+  },
+  {
+    "record_id": "SYN-008985",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Nkrumah Doku, this is Asante Quaye. I am stranded at the station. Can you MoMo me GHS 1000?"
+  },
+  {
+    "record_id": "SYN-007030",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "For the deposit, type your PIN on my device. It is safer."
+  },
+  {
+    "record_id": "SYN-004240",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Congratulations! You have won GHS 300 in the MTN promo. Claim now."
+  },
+  {
+    "record_id": "SYN-010082",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Your account is locked. Visit this temporary agent portal and enter your details."
+  },
+  {
+    "record_id": "SYN-005315",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Here is the code: wait, no I won't."
+  },
+  {
+    "record_id": "SYN-003465",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Let me check with the real customer care."
+  },
+  {
+    "record_id": "SYN-003465",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, this is Adjei Mensah. We are about to suspend your wallet. Call us back immediately."
+  },
+  {
+    "record_id": "SYN-010329",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "This is AirtelTigo support. To fix the issue, please log in via this link I will WhatsApp you."
+  },
+  {
+    "record_id": "SYN-006070",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, this is Kojo Cobbina. I am at the agent but the network is down. Can you send GHS 400 to this other number instead?"
+  },
+  {
+    "record_id": "SYN-006124",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Quick change: send the GHS 50 to 0547744376 so I can cash out nearby."
+  },
+  {
+    "record_id": "SYN-011911",
+    "suggested_label": "FP011",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, take this bundle and give me the cash equivalent. I will load the airtime later."
+  },
+  {
+    "record_id": "SYN-008108",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "For the deposit, type your PIN on my device. It is safer."
+  },
+  {
+    "record_id": "SYN-002379",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Warning: Account deactivation scheduled. Reply YES to speak to an agent."
+  },
+  {
+    "record_id": "SYN-001510",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "I need you to share the OTP that just arrived so we can secure the account."
+  },
+  {
+    "record_id": "SYN-010001",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Your account is locked. Visit this temporary agent portal and enter your details."
+  },
+  {
+    "record_id": "SYN-002705",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, this is Bonsu Boakye. We are about to suspend your wallet. Call us back immediately."
+  },
+  {
+    "record_id": "SYN-007958",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "Customer, come. The system is showing error. Give me your phone, I will complete the GHS 1000 for you."
+  },
+  {
+    "record_id": "SYN-013282",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "Agoo, your account can now be accessed from a second phone. Confirm by sharing the OTP."
+  },
+  {
+    "record_id": "SYN-007983",
+    "suggested_label": "FP010",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, to cash out faster, just approve the prompt I am sending from the agent phone."
+  },
+  {
+    "record_id": "SYN-009817",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Call this number back: 0241602441 and follow the automated steps."
+  },
+  {
+    "record_id": "SYN-006336",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Quick change: send the GHS 100 to 0563629904 so I can cash out nearby."
+  },
+  {
+    "record_id": "SYN-010437",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "This is AirtelTigo support. To fix the issue, please log in via this link I will WhatsApp you."
+  },
+  {
+    "record_id": "SYN-013820",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, your account can now be accessed from a second phone. Confirm by sharing the OTP."
+  },
+  {
+    "record_id": "SYN-001013",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, Vodafone here. Our system shows an overpayment of GHS 1500 that needs to be credited back to you."
+  },
+  {
+    "record_id": "SYN-000549",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, Glo here. Our system shows an overpayment of GHS 5000 that needs to be credited back to you."
+  },
+  {
+    "record_id": "SYN-002645",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, this is Adjei Osei. We are about to suspend your wallet. Call us back immediately."
+  },
+  {
+    "record_id": "SYN-013996",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, your account can now be accessed from a second phone. Confirm by sharing the OTP."
+  },
+  {
+    "record_id": "SYN-004317",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "Share your mobile money PIN so we can deposit the winnings directly."
+  },
+  {
+    "record_id": "SYN-004317",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Akosua Gbeho, you have been selected for a special airtime and cash reward."
+  },
+  {
+    "record_id": "SYN-001792",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good day. This is MTN fraud department. We detected unusual activity."
+  },
+  {
+    "record_id": "SYN-007514",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "Customer, come. The system is showing error. Give me your phone, I will complete the GHS 2000 for you."
+  },
+  {
+    "record_id": "SYN-001861",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, my name is Gyan Gbeho, I am a senior officer at MTN Mobile Money. We are calling about your account."
+  },
+  {
+    "record_id": "SYN-013474",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, your account can now be accessed from a second phone. Confirm by sharing the OTP."
+  },
+  {
+    "record_id": "SYN-010166",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "This is Vodafone support. To fix the issue, please log in via this link I will WhatsApp you."
+  },
+  {
+    "record_id": "SYN-006220",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, this is Maame Adu. I am at the agent but the network is down. Can you send GHS 5000 to this other number instead?"
+  },
+  {
+    "record_id": "SYN-000439",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Kojo Annan from Glo customer care. We have a pending refund of GHS 200 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-000439",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Kojo Annan from Glo customer care. We have a pending refund of GHS 200 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-002203",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, my name is Akosua Essien, I am a senior officer at AirtelTigo Mobile Money. We are calling about your account."
+  },
+  {
+    "record_id": "SYN-000997",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Kofi Opoku from MTN customer care. We have a pending refund of GHS 50 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-000997",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Kofi Opoku from MTN customer care. We have a pending refund of GHS 50 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-007317",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "Customer, come. The system is showing error. Give me your phone, I will complete the GHS 5000 for you."
+  },
+  {
+    "record_id": "SYN-003040",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Let me check with the real customer care."
+  },
+  {
+    "record_id": "SYN-003040",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, this is Adu Essien. We are about to suspend your wallet. Call us back immediately."
+  },
+  {
+    "record_id": "SYN-008740",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your friend. My phone got stolen. Please send GHS 2000 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-008740",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your friend. My phone got stolen. Please send GHS 2000 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-013444",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "We are migrating wallets. Enter your PIN on the new handset I will guide you."
+  },
+  {
+    "record_id": "SYN-013444",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "We are migrating wallets. Enter your PIN on the new handset I will guide you."
+  },
+  {
+    "record_id": "SYN-010095",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "This is AirtelTigo support. To fix the issue, please log in via this link I will WhatsApp you."
+  },
+  {
+    "record_id": "SYN-001415",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "I need you to share the OTP that just arrived so we can secure the account."
+  },
+  {
+    "record_id": "SYN-001415",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good day. This is Vodafone fraud department. We detected unusual activity."
+  },
+  {
+    "record_id": "SYN-000522",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, Vodafone here. Our system shows an overpayment of GHS 2000 that needs to be credited back to you."
+  },
+  {
+    "record_id": "SYN-008900",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Frimpong Nkrumah, this is Inkoom Doku. I am stranded at the station. Can you MoMo me GHS 50?"
+  },
+  {
+    "record_id": "SYN-008588",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your brother. My phone got stolen. Please send GHS 200 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-008588",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your brother. My phone got stolen. Please send GHS 200 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-000834",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, Glo here. Our system shows an overpayment of GHS 500 that needs to be credited back to you."
+  },
+  {
+    "record_id": "SYN-007868",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "The network is slow. Let me use my float to pay you, then you reverse to this number."
+  },
+  {
+    "record_id": "SYN-013644",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, your account can now be accessed from a second phone. Confirm by sharing the OTP."
+  },
+  {
+    "record_id": "SYN-000735",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Kwesi Cobbina from AirtelTigo customer care. We have a pending refund of GHS 300 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-000735",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Kwesi Cobbina from AirtelTigo customer care. We have a pending refund of GHS 300 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-008177",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Jnr Amoah, this is Fosu Ibrahim. I am stranded at the station. Can you MoMo me GHS 400?"
+  },
+  {
+    "record_id": "SYN-001315",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "I need you to share the OTP that just arrived so we can secure the account."
+  },
+  {
+    "record_id": "SYN-001315",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, my name is Darko Ibrahim, I am a senior officer at MTN Mobile Money. We are calling about your account."
+  },
+  {
+    "record_id": "SYN-007341",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "The network is slow. Let me use my float to pay you, then you reverse to this number."
+  },
+  {
+    "record_id": "SYN-001601",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, my name is Hagan Opoku, I am a senior officer at MTN Mobile Money. We are calling about your account."
+  },
+  {
+    "record_id": "SYN-012862",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, your account can now be accessed from a second phone. Confirm by sharing the OTP."
+  },
+  {
+    "record_id": "SYN-008599",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your uncle. My phone got stolen. Please send GHS 200 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-008599",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your uncle. My phone got stolen. Please send GHS 200 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-000302",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, Vodafone here. Our system shows an overpayment of GHS 1000 that needs to be credited back to you."
+  },
+  {
+    "record_id": "SYN-013055",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, your account can now be accessed from a second phone. Confirm by sharing the OTP."
+  },
+  {
+    "record_id": "SYN-000961",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Kweku Sarpong from AirtelTigo customer care. We have a pending refund of GHS 250 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-000961",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Kweku Sarpong from AirtelTigo customer care. We have a pending refund of GHS 250 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-002228",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "I need you to share the OTP that just arrived so we can secure the account."
+  },
+  {
+    "record_id": "SYN-002228",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, my name is Ama Gyasi, I am a senior officer at Vodafone Mobile Money. We are calling about your account."
+  },
+  {
+    "record_id": "SYN-001307",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, my name is Akua Adu, I am a senior officer at AirtelTigo Mobile Money. We are calling about your account."
+  },
+  {
+    "record_id": "SYN-005989",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "The original recipient number is not working. Use this one for the payment."
+  },
+  {
+    "record_id": "SYN-001220",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "I need you to share the OTP that just arrived so we can secure the account."
+  },
+  {
+    "record_id": "SYN-002780",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, this is Fiifi Sarpong. We are about to suspend your wallet. Call us back immediately."
+  },
+  {
+    "record_id": "SYN-000126",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, MTN here. Our system shows an overpayment of GHS 200 that needs to be credited back to you."
+  },
+  {
+    "record_id": "SYN-013686",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, your account can now be accessed from a second phone. Confirm by sharing the OTP."
+  },
+  {
+    "record_id": "SYN-008067",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "The network is slow. Let me use my float to pay you, then you reverse to this number."
+  },
+  {
+    "record_id": "SYN-002794",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Urgent notice from AirtelTigo: Your mobile money account will be blocked in 30 minutes due to suspicious activity."
+  },
+  {
+    "record_id": "SYN-000627",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Adwoa Hodzi from AirtelTigo customer care. We have a pending refund of GHS 500 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-000627",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Adwoa Hodzi from AirtelTigo customer care. We have a pending refund of GHS 500 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-009809",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Call this number back: 0509393560 and follow the automated steps."
+  },
+  {
+    "record_id": "SYN-006258",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, this is Boateng Fosu. I am at the agent but the network is down. Can you send GHS 1000 to this other number instead?"
+  },
+  {
+    "record_id": "SYN-004342",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Doku Ibrahim, you have been selected for a special airtime and cash reward."
+  },
+  {
+    "record_id": "SYN-004639",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Limited offer: Get GHS 5000 free credit by completing a short verification."
+  },
+  {
+    "record_id": "SYN-008606",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Darko Annan, this is Owusu Danso. I am stranded at the station. Can you MoMo me GHS 500?"
+  },
+  {
+    "record_id": "SYN-003694",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Your number won today's MoMo jackpot. Reply to process the GHS 1250."
+  },
+  {
+    "record_id": "SYN-002892",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, this is Esi Essien. We are about to suspend your wallet. Call us back immediately."
+  },
+  {
+    "record_id": "SYN-007441",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "The network is slow. Let me use my float to pay you, then you reverse to this number."
+  },
+  {
+    "record_id": "SYN-003908",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Congratulations! You have won GHS 500 in the Vodafone promo. Claim now."
+  },
+  {
+    "record_id": "SYN-001287",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "I need you to share the OTP that just arrived so we can secure the account."
+  },
+  {
+    "record_id": "SYN-001287",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good day. This is Vodafone fraud department. We detected unusual activity."
+  },
+  {
+    "record_id": "SYN-003619",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Your number won today's MoMo jackpot. Reply to process the GHS 30000."
+  },
+  {
+    "record_id": "SYN-003507",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Congratulations! You have won GHS 2500 in the Vodafone promo. Claim now."
+  },
+  {
+    "record_id": "SYN-001467",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "I need you to share the OTP that just arrived so we can secure the account."
+  },
+  {
+    "record_id": "SYN-007461",
+    "suggested_label": "FP010",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, to cash out faster, just approve the prompt I am sending from the agent phone."
+  },
+  {
+    "record_id": "SYN-007461",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, to cash out faster, just approve the prompt I am sending from the agent phone."
+  },
+  {
+    "record_id": "SYN-003518",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Agoo Papa Essien, you have been selected for a special airtime and cash reward."
+  },
+  {
+    "record_id": "SYN-004327",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "Share your mobile money PIN so we can deposit the winnings directly."
+  },
+  {
+    "record_id": "SYN-004327",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Esi Cudjoe, you have been selected for a special airtime and cash reward."
+  },
+  {
+    "record_id": "SYN-006070",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, this is Kojo Cobbina. I am at the agent but the network is down. Can you send GHS 400 to this other number instead?"
+  },
+  {
+    "record_id": "SYN-003038",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, this is Akua Dzomeku. We are about to suspend your wallet. Call us back immediately."
+  },
+  {
+    "record_id": "SYN-003858",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Your number won today's MoMo jackpot. Reply to process the GHS 1250."
+  },
+  {
+    "record_id": "SYN-009758",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "This is Vodafone support. To fix the issue, me pa wo kyew log in via this link I will WhatsApp you."
+  },
+  {
+    "record_id": "SYN-013000",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, your account can now be accessed from a second phone. Confirm by sharing the OTP."
+  },
+  {
+    "record_id": "SYN-000417",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Osei Lamptey from Vodafone customer care. We have a pending refund of GHS 1500 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-000417",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Osei Lamptey from Vodafone customer care. We have a pending refund of GHS 1500 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-002454",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, this is Boateng Hodzi. We are about to suspend your wallet. Call us back immediately."
+  },
+  {
+    "record_id": "SYN-000908",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, Glo here. Our system shows an overpayment of GHS 5000 that needs to be credited back to you."
+  },
+  {
+    "record_id": "SYN-013810",
+    "suggested_label": "FP012",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, your account can now be accessed from a second phone. Confirm by sharing the OTP."
+  },
+  {
+    "record_id": "SYN-009520",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Your account is locked. Visit this temporary agent portal and enter your details."
+  },
+  {
+    "record_id": "SYN-009045",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Call me from the old number or I won't send."
+  },
+  {
+    "record_id": "SYN-009817",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Call this number back: 0241602441 and follow the automated steps."
+  },
+  {
+    "record_id": "SYN-001129",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "To complete the refund I need you to confirm your mobile money PIN or the last 4 digits."
+  },
+  {
+    "record_id": "SYN-001129",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Please, this is Nana Inkoom. Your last transfer bounced and GHS 2000 is waiting to be returned."
+  },
+  {
+    "record_id": "SYN-004375",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Congratulations! You have won GHS 800 in the Glo promo. Claim now."
+  },
+  {
+    "record_id": "SYN-007177",
+    "suggested_label": "FP010",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, to cash out faster, just approve the prompt I am sending from the agent phone."
+  },
+  {
+    "record_id": "SYN-001982",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "I need you to share the OTP that just arrived so we can secure the account."
+  },
+  {
+    "record_id": "SYN-001982",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, my name is Cobbina Dzomeku, I am a senior officer at MTN Mobile Money. We are calling about your account."
+  },
+  {
+    "record_id": "SYN-002561",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Urgent notice from MTN: Your mobile money account will be blocked in 30 minutes due to suspicious activity."
+  },
+  {
+    "record_id": "SYN-008213",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Ama Danso, this is Gyan Boakye. I am stranded at the station. Can you MoMo me GHS 2500?"
+  },
+  {
+    "record_id": "SYN-001515",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "I need you to share the OTP that just arrived so we can secure the account."
+  },
+  {
+    "record_id": "SYN-001515",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good day. This is Glo fraud department. We detected unusual activity."
+  },
+  {
+    "record_id": "SYN-007353",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "For the deposit, type your PIN on my device. It is safer."
+  },
+  {
+    "record_id": "SYN-010437",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "This is AirtelTigo support. To fix the issue, please log in via this link I will WhatsApp you."
+  },
+  {
+    "record_id": "SYN-004602",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Congratulations! You have won GHS 4000 in the MTN promo. Claim now."
+  },
+  {
+    "record_id": "SYN-001643",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, my name is Danso Owusu, I am a senior officer at Vodafone Mobile Money. We are calling about your account."
+  },
+  {
+    "record_id": "SYN-010918",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "Yes, that prompt is from me. Just enter your PIN."
+  },
+  {
+    "record_id": "SYN-010918",
+    "suggested_label": "FP010",
+    "review_decision": "supported",
+    "evidence_notes": "I sent the money request. Approve so we can finish the deal."
+  },
+  {
+    "record_id": "SYN-002786",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "To stop the block, provide the OTP sent to your phone right now."
+  },
+  {
+    "record_id": "SYN-002786",
+    "suggested_label": "FP003",
+    "review_decision": "supported",
+    "evidence_notes": "Urgent notice from Glo: Your mobile money account will be blocked in 30 minutes due to suspicious activity."
+  },
+  {
+    "record_id": "SYN-009116",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your auntie. My phone got stolen. Please send GHS 2500 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-009116",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, it's me, your auntie. My phone got stolen. Please send GHS 2500 to this new number urgently."
+  },
+  {
+    "record_id": "SYN-001000",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Asante Inkoom from Vodafone customer care. We have a pending refund of GHS 100 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-001000",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Asante Inkoom from Vodafone customer care. We have a pending refund of GHS 100 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-000049",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "To complete the refund I need you to confirm your mobile money PIN or the last 4 digits."
+  },
+  {
+    "record_id": "SYN-000049",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Please, this is Adwoa Fosu. Your last transfer bounced and GHS 3000 is waiting to be returned."
+  },
+  {
+    "record_id": "SYN-009790",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Call this number back: 0265698916 and follow the automated steps."
+  },
+  {
+    "record_id": "SYN-008339",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Agoo Frimpong Asante, this is Tetteh Fiawoo. I am stranded at the station. Can you MoMo me GHS 2500?"
+  },
+  {
+    "record_id": "SYN-003706",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Your number won today's MoMo jackpot. Reply to process the GHS 10000."
+  },
+  {
+    "record_id": "SYN-008970",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Quaye Opoku, this is Nkrumah Osei. I am stranded at the station. Can you MoMo me GHS 2000?"
+  },
+  {
+    "record_id": "SYN-011088",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "Yes, that prompt is from me. Just enter your PIN."
+  },
+  {
+    "record_id": "SYN-011088",
+    "suggested_label": "FP010",
+    "review_decision": "supported",
+    "evidence_notes": "I sent the money request. Approve so we can finish the deal."
+  },
+  {
+    "record_id": "SYN-008649",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Call me from the old number or I won't send."
+  },
+  {
+    "record_id": "SYN-008649",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Frimpong Agyeman, this is Darko Fiawoo. I am stranded at the station. Can you MoMo me GHS 1500?"
+  },
+  {
+    "record_id": "SYN-000911",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Agoo, Glo here. Our system shows an overpayment of GHS 1500 that needs to be credited back to you."
+  },
+  {
+    "record_id": "SYN-001298",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "I need you to share the OTP that just arrived so we can secure the account."
+  },
+  {
+    "record_id": "SYN-008120",
+    "suggested_label": "FP007",
+    "review_decision": "supported",
+    "evidence_notes": "For the deposit, type your PIN on my device. It is safer."
+  },
+  {
+    "record_id": "SYN-002203",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, my name is Akosua Essien, I am a senior officer at AirtelTigo Mobile Money. We are calling about your account."
+  },
+  {
+    "record_id": "SYN-000814",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Hello, Vodafone here. Our system shows an overpayment of GHS 2500 that needs to be credited back to you."
+  },
+  {
+    "record_id": "SYN-000427",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Please, this is Kweku Bonsu. Your last transfer bounced and GHS 500 is waiting to be returned."
+  },
+  {
+    "record_id": "SYN-000713",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, calling about a failed transaction. You are due a refund of GHS 50. Can we process it now?"
+  },
+  {
+    "record_id": "SYN-003943",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Cobbina Annan, you have been selected for a special airtime and cash reward."
+  },
+  {
+    "record_id": "SYN-009647",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Call this number back: 0571314755 and follow the automated steps."
+  },
+  {
+    "record_id": "SYN-006808",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Quick change: send the GHS 250 to 0203490285 so I can cash out nearby."
+  },
+  {
+    "record_id": "SYN-008177",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Jnr Amoah, this is Fosu Ibrahim. I am stranded at the station. Can you MoMo me GHS 400?"
+  },
+  {
+    "record_id": "SYN-012231",
+    "suggested_label": "FP011",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, take this bundle and give me the cash equivalent. I will load the airtime later."
+  },
+  {
+    "record_id": "SYN-010476",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Call this number back: 0267084798 and follow the automated steps."
+  },
+  {
+    "record_id": "SYN-006862",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Quick change: send the GHS 200 to 0544349385 so I can cash out nearby."
+  },
+  {
+    "record_id": "SYN-008389",
+    "suggested_label": "FP008",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Abena Owusu, this is Sarpong Addo. I am stranded at the station. Can you MoMo me GHS 2500?"
+  },
+  {
+    "record_id": "SYN-001220",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "I need you to share the OTP that just arrived so we can secure the account."
+  },
+  {
+    "record_id": "SYN-009691",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "This is MTN support. To fix the issue, please log in via this link I will WhatsApp you."
+  },
+  {
+    "record_id": "SYN-012546",
+    "suggested_label": "FP011",
+    "review_decision": "supported",
+    "evidence_notes": "Customer, the cash is ready. But the system needs you to reverse GHS 750 first so I can balance the float."
+  },
+  {
+    "record_id": "SYN-009698",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Call this number back: 0503038795 and follow the automated steps."
+  },
+  {
+    "record_id": "SYN-003739",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "Share your mobile money PIN so we can deposit the winnings directly."
+  },
+  {
+    "record_id": "SYN-003739",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Hello Akosua Dzomeku, you have been selected for a special airtime and cash reward."
+  },
+  {
+    "record_id": "SYN-009584",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Call this number back: 0501300371 and follow the automated steps."
+  },
+  {
+    "record_id": "SYN-000315",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Bonsu Fiawoo from MTN customer care. We have a pending refund of GHS 300 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-000315",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Bonsu Fiawoo from MTN customer care. We have a pending refund of GHS 300 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-000654",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Fosu Dzomeku from Vodafone customer care. We have a pending refund of GHS 300 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-000654",
+    "suggested_label": "FP001",
+    "review_decision": "supported",
+    "evidence_notes": "Good afternoon, this is Fosu Dzomeku from Vodafone customer care. We have a pending refund of GHS 300 on your mobile money wallet."
+  },
+  {
+    "record_id": "SYN-007909",
+    "suggested_label": "FP010",
+    "review_decision": "supported",
+    "evidence_notes": "Brother, to cash out faster, just approve the prompt I am sending from the agent phone."
+  },
+  {
+    "record_id": "SYN-003612",
+    "suggested_label": "FP004",
+    "review_decision": "supported",
+    "evidence_notes": "Your number won today's MoMo jackpot. Reply to process the GHS 100."
+  },
+  {
+    "record_id": "SYN-010030",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Call this number back: 0268608472 and follow the automated steps."
+  },
+  {
+    "record_id": "SYN-009809",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Call this number back: 0509393560 and follow the automated steps."
+  },
+  {
+    "record_id": "SYN-009510",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Call this number back: 0505445895 and follow the automated steps."
+  },
+  {
+    "record_id": "SYN-006262",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Hi, this is Jnr Essien. I am at the agent but the network is down. Can you send GHS 2000 to this other number instead?"
+  },
+  {
+    "record_id": "SYN-011254",
+    "suggested_label": "FP005",
+    "review_decision": "supported",
+    "evidence_notes": "Yes, that prompt is from me. Just enter your PIN."
+  },
+  {
+    "record_id": "SYN-011254",
+    "suggested_label": "FP010",
+    "review_decision": "supported",
+    "evidence_notes": "The prompt shows a different name."
+  },
+  {
+    "record_id": "SYN-006885",
+    "suggested_label": "FP006",
+    "review_decision": "supported",
+    "evidence_notes": "Quick change: send the GHS 2500 to 0269479642 so I can cash out nearby."
+  },
+  {
+    "record_id": "SYN-009485",
+    "suggested_label": "FP009",
+    "review_decision": "supported",
+    "evidence_notes": "Call this number back: 0243309785 and follow the automated steps."
+  },
+  {
+    "record_id": "SYN-001305",
+    "suggested_label": "FP002",
+    "review_decision": "supported",
+    "evidence_notes": "Good day. This is MTN fraud department. We detected unusual activity."
+  },
+  {
+    "record_id": "SYN-011992",
+    "suggested_label": "FP011",
+    "review_decision": "supported",
+    "evidence_notes": "The machine is offline. Give me the cash, I will deposit it into your wallet when network returns."
+  }
+]

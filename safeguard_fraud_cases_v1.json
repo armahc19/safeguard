@@ -1,0 +1,923 @@
+{
+  "schema_version": "1.0.0",
+  "artifact": "safeguard_fraud_cases",
+  "title": "SafeGuard Ghana Mobile Money Fraud Case Dataset",
+  "status": "draft_v1",
+  "source_library": {
+    "title": "Mobile Money Fraud Hackathon Case Study Library",
+    "total_library_records": 36,
+    "ghana_records": 24,
+    "other_africa_records": 9,
+    "asia_records": 3,
+    "ghana_core_dossiers": 23,
+    "ghana_unresolved_supplementary_records": 1,
+    "important_note": "The library explicitly states that its 36 records are not 36 verified victims. It includes incidents, attempted scams, official warnings and documented campaign patterns."
+  },
+  "record_count": 24,
+  "records": [
+    {
+      "case_id": "GH01",
+      "country": "Ghana",
+      "title": "A fabricated credit becomes a real refund",
+      "record_type": "regulator_documented_pattern",
+      "verification_status": "official_or_court_documented",
+      "channels": [
+        "sms",
+        "voice_call"
+      ],
+      "summary": "A message claims a wallet credit arrived; a caller asks the customer to return it as a refund although the original credit is not established.",
+      "reported_outcome": "No case-specific loss stated; documented pattern.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP001"
+        ],
+        "behaviour_tactic_ids": [
+          "BT003",
+          "BT007"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action",
+        "loss"
+      ],
+      "evidence": {
+        "source_summary": "Bank of Ghana fraud report; aggregate pattern, not one named victim.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH02",
+      "country": "Ghana",
+      "title": "A reversal syndicate targets an agriculturist",
+      "record_type": "reported_conviction",
+      "verification_status": "official_or_court_documented",
+      "channels": [
+        "voice_call"
+      ],
+      "summary": "Callers claim mistaken transfers and ask the target to help reverse them; five suspects were reportedly convicted.",
+      "reported_outcome": "GHS 130,000 reported loss and recovery; court ordered return.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP001"
+        ],
+        "behaviour_tactic_ids": [
+          "BT003",
+          "BT006"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action",
+        "loss"
+      ],
+      "evidence": {
+        "source_summary": "Ghana News Agency reports convictions and recovery; exact prompts and credential requests not published.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH03",
+      "country": "Ghana",
+      "title": "A rejected wrong transfer story becomes an account blocking threat",
+      "record_type": "reported_conviction",
+      "verification_status": "official_or_court_documented",
+      "channels": [
+        "voice_call",
+        "sms"
+      ],
+      "summary": "After a claimed mistaken transfer is rejected, a purported blocking message and an apparent official helper lead to guided wallet procedures.",
+      "reported_outcome": "GHS 1,840 reported loss; receiving number reportedly blocked; offender reportedly sentenced.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP001",
+          "FP002",
+          "FP003"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT002",
+          "BT007"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action",
+        "loss"
+      ],
+      "evidence": {
+        "source_summary": "ModernGhana reproducing Graphic reporting; historical provider naming retained.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH04",
+      "country": "Ghana",
+      "title": "A supposed anti fraud call draws a customer and agent into one transaction",
+      "record_type": "police_documented_pattern",
+      "verification_status": "official_or_court_documented",
+      "channels": [
+        "sms",
+        "voice_call",
+        "physical_agent_outlet"
+      ],
+      "summary": "A fake promotional SMS and caller posing as telecom staff direct a customer to an agent; the agent is induced to transfer funds under a different understanding of the transaction.",
+      "reported_outcome": "No amount or named victim stated.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP002",
+          "FP007"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT010"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action"
+      ],
+      "evidence": {
+        "source_summary": "Ghana Police warning reported by GNA; multi-party pattern, not a single verified victim dossier.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH05",
+      "country": "Ghana",
+      "title": "A familiar customer promises that cash is on the way",
+      "record_type": "reported_conviction",
+      "verification_status": "official_or_court_documented",
+      "channels": [
+        "physical_agent_outlet"
+      ],
+      "summary": "A locally known customer obtains repeated agent transfers by promising that a relative will bring cash to settle them.",
+      "reported_outcome": "GHS 8,000 combined transfers; refund ordered, actual reimbursement not established.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP008"
+        ],
+        "behaviour_tactic_ids": [
+          "BT005",
+          "BT006"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action"
+      ],
+      "evidence": {
+        "source_summary": "Graphic Online/GNA court reporting; no technical platform breach described.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH06",
+      "country": "Ghana",
+      "title": "The agent receives instructions from a copied boss profile",
+      "record_type": "reported_prosecution_or_court_allegation",
+      "verification_status": "reported_not_independently_verified",
+      "channels": [
+        "physical_agent_outlet",
+        "whatsapp"
+      ],
+      "summary": "A suspect allegedly copies a business owner's WhatsApp profile image and directs a vendor to transfer funds to another wallet.",
+      "reported_outcome": "GHS 2,500 linked to reported incident; later judgment not verified.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP006",
+          "FP008"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT005"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action"
+      ],
+      "evidence": {
+        "source_summary": "Ghanaian Times citing Citi News; copied profile is not described as takeover of the owner's real account.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH07",
+      "country": "Ghana",
+      "title": "A training call debits an agent wallet",
+      "record_type": "reported_conviction",
+      "verification_status": "official_or_court_documented",
+      "channels": [
+        "voice_call"
+      ],
+      "summary": "Callers claiming to be MTN trainers guide an agent through wallet activity; the agent wallet is reportedly debited.",
+      "reported_outcome": "GHS 2,000 debit; prosecution and imprisonment reported.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP002",
+          "FP007"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action"
+      ],
+      "evidence": {
+        "source_summary": "GIABA institutional typology summary; exact commands and transcript unavailable.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH08",
+      "country": "Ghana",
+      "title": "A claimed head office officer teaches MoMo reversals",
+      "record_type": "reported_prosecution_or_court_allegation",
+      "verification_status": "reported_not_independently_verified",
+      "channels": [
+        "voice_call"
+      ],
+      "summary": "A caller claiming to be a senior officer offers reversal instruction; an employee enters a PIN and follows guidance before a large wallet transfer.",
+      "reported_outcome": "GHS 37,000 reported transfer and withdrawal; prosecution reported.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP002",
+          "FP007"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT006"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action"
+      ],
+      "evidence": {
+        "source_summary": "GIABA typology; exact prompts and final judgment not fully supplied.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH09",
+      "country": "Ghana",
+      "title": "A prize claim becomes a USSD debit approval",
+      "record_type": "regulator_documented_pattern",
+      "verification_status": "official_or_court_documented",
+      "channels": [
+        "voice_call",
+        "sms",
+        "ussd"
+      ],
+      "summary": "A supposed prize or promotion leads a target through USSD steps and a debit prompt presented as necessary to receive the prize.",
+      "reported_outcome": "No individual loss stated.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP004",
+          "FP007"
+        ],
+        "behaviour_tactic_ids": [
+          "BT004",
+          "BT009"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action",
+        "loss"
+      ],
+      "evidence": {
+        "source_summary": "GNA feature by fraud examiner; published expert description of a pattern.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH10",
+      "country": "Ghana",
+      "title": "The expected payee changes the destination wallet",
+      "record_type": "reported_conviction",
+      "verification_status": "official_or_court_documented",
+      "channels": [
+        "voice_call"
+      ],
+      "summary": "A caller uses contextual knowledge of an expected payment and supplies a different wallet destination; the intended recipient later contacts the payer.",
+      "reported_outcome": "GHS 3,000 initial misdirected payment; recovery not established in dossier.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP006"
+        ],
+        "behaviour_tactic_ids": [
+          "BT005"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action"
+      ],
+      "evidence": {
+        "source_summary": "Investigative reporting with victim accounts; recipient identity was assumed, not independently verified.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH11",
+      "country": "Ghana",
+      "title": "An airtime favour exposes a wallet PIN",
+      "record_type": "reported_pattern_or_case_summary",
+      "verification_status": "reported_not_independently_verified",
+      "channels": [
+        "unknown"
+      ],
+      "summary": "An airtime-related favour is used to obtain or expose a wallet PIN; details in the library are limited.",
+      "reported_outcome": "Outcome and amount not reliably specified in the available extract.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP005"
+        ],
+        "behaviour_tactic_ids": [
+          "BT003"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action"
+      ],
+      "evidence": {
+        "source_summary": "Retained prior-edition dossier; limited source summary. Do not infer the exact technical use of the PIN.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH12",
+      "country": "Ghana",
+      "title": "A customer hands the agent a phone and another caller directs the transfer",
+      "record_type": "reported_conviction",
+      "verification_status": "official_or_court_documented",
+      "channels": [
+        "physical_agent_outlet",
+        "voice_call"
+      ],
+      "summary": "A customer seeking a cash withdrawal hands an agent a phone; a remote caller coaches the agent through prompts and a merchant-wallet transfer occurs instead of the expected cash-out.",
+      "reported_outcome": "GHS 37,000 reported loss and recovery; conviction reported.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP007"
+        ],
+        "behaviour_tactic_ids": [
+          "BT010",
+          "BT006"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action",
+        "loss"
+      ],
+      "evidence": {
+        "source_summary": "Adom Online and MyJoyOnline court reporting; details differ across reports and disputed details are excluded.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH13",
+      "country": "Ghana",
+      "title": "An apparent telecom message supports a refund call to a judge",
+      "record_type": "reported_attempt",
+      "verification_status": "reported_not_independently_verified",
+      "channels": [
+        "voice_call",
+        "sms"
+      ],
+      "summary": "A caller claims a mistaken transfer and an apparent telecom message supports the claim; the target reports checking and rejecting it.",
+      "reported_outcome": "No loss reported.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP001"
+        ],
+        "behaviour_tactic_ids": [
+          "BT003",
+          "BT007"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation"
+      ],
+      "evidence": {
+        "source_summary": "MyJoyOnline report of a public account; amount and exact checking method not disclosed.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH14",
+      "country": "Ghana",
+      "title": "A different agent initiates the prompt during a real withdrawal visit",
+      "record_type": "media_described_alleged_pattern",
+      "verification_status": "reported_not_independently_verified",
+      "channels": [
+        "physical_agent_outlet",
+        "wallet_app"
+      ],
+      "summary": "A media-described scenario alleges that a separate request initiator causes a prompt during a real cash-out visit, leading the customer to approve the wrong operation.",
+      "reported_outcome": "No named victim or quantified loss.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP007",
+          "FP010"
+        ],
+        "behaviour_tactic_ids": [
+          "BT010",
+          "BT009"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "loss"
+      ],
+      "evidence": {
+        "source_summary": "Pulse Ghana article; no provider logs, identified investigation or independently verified collusion supplied.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH15",
+      "country": "Ghana",
+      "title": "A payment verification form asks for the wallet PIN",
+      "record_type": "regulator_documented_pattern",
+      "verification_status": "official_or_court_documented",
+      "channels": [
+        "search_or_map_listing",
+        "website_or_form"
+      ],
+      "summary": "Fake business listings divert customers to forms requesting phone, network, amount and MoMo PIN under payment verification.",
+      "reported_outcome": "GHS 266,195 across 54 broader business-impersonation reports; not attributable solely to PIN forms.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP005"
+        ],
+        "behaviour_tactic_ids": [
+          "BT009",
+          "BT005"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action"
+      ],
+      "evidence": {
+        "source_summary": "Cyber Security Authority advisory; aggregate category amount, not a PIN-harvesting-only total.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH16",
+      "country": "Ghana",
+      "title": "A disputed cash out prompt shows a different service name",
+      "record_type": "unresolved_allegation",
+      "verification_status": "unresolved",
+      "channels": [
+        "physical_agent_outlet",
+        "wallet_app"
+      ],
+      "summary": "A customer reports approving a withdrawal prompt showing a different service name and later disputing whether the outlet received the funds; the mechanism remains unresolved.",
+      "reported_outcome": "Amount and resolution not stated.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP010"
+        ],
+        "behaviour_tactic_ids": []
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation"
+      ],
+      "evidence": {
+        "source_summary": "Daily Guide report; no verified social engineering, collusion or provider failure. Excluded from confirmed pattern training labels.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH17",
+      "country": "Ghana",
+      "title": "Fake subscription support leads to alleged wallet access and borrowing",
+      "record_type": "first_person_community_account",
+      "verification_status": "reported_not_independently_verified",
+      "channels": [
+        "voice_call",
+        "website_or_form",
+        "wallet_app"
+      ],
+      "summary": "A person seeking subscription support is reportedly redirected to links and hurried wallet-code entry; wallet loss and borrowing are alleged.",
+      "reported_outcome": "Loss and loan amount not specified.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP002",
+          "FP005",
+          "FP009"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT002",
+          "BT006",
+          "BT009"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action",
+        "loss"
+      ],
+      "evidence": {
+        "source_summary": "Graphic Online account; public personal account, no transaction logs or independent adjudication retrieved.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH18",
+      "country": "Ghana",
+      "title": "A TikTok complaint prompts a provider account of wallet registration on another device",
+      "record_type": "provider_account",
+      "verification_status": "official_or_court_documented",
+      "channels": [
+        "voice_call",
+        "wallet_app"
+      ],
+      "summary": "Provider says a customer disclosed app-registration OTP, MoMo PIN and login OTP; provider attributes unauthorised transactions to wallet registration on another device.",
+      "reported_outcome": "Amount and recovery not specified.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP005",
+          "FP009",
+          "FP012"
+        ],
+        "behaviour_tactic_ids": []
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action"
+      ],
+      "evidence": {
+        "source_summary": "MobileMoney Ltd statement republished by MyJoyOnline; provider account, pretext and psychological tactic not established.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH19",
+      "country": "Ghana",
+      "title": "Repeated nuisance calls are followed by a fake MTN helper",
+      "record_type": "first_person_community_account",
+      "verification_status": "reported_not_independently_verified",
+      "channels": [
+        "voice_call"
+      ],
+      "summary": "A community poster says repeated calls were followed by a supposed MTN helper offering to stop them; the poster reports wallet loss after following a process.",
+      "reported_outcome": "GHS 700 claimed loss; no provider finding or transaction record verifies it.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP002",
+          "FP009"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT008"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action",
+        "loss"
+      ],
+      "evidence": {
+        "source_summary": "Reddit r/ghana first-person account; comments are not corroboration.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH20",
+      "country": "Ghana",
+      "title": "A supposed restaurant confirmation asks for a Telecel wallet PIN",
+      "record_type": "first_person_community_account",
+      "verification_status": "reported_not_independently_verified",
+      "channels": [
+        "unknown"
+      ],
+      "summary": "A commenter says an apparent food-order process shifted into a request for a wallet PIN; the commenter says they refused.",
+      "reported_outcome": "No completed loss claimed; attempted PIN use and provider blocking unverified.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP004",
+          "FP005"
+        ],
+        "behaviour_tactic_ids": [
+          "BT004",
+          "BT009"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action",
+        "loss"
+      ],
+      "evidence": {
+        "source_summary": "Surviving Reddit comment beneath deleted original post; channel and provider response uncertain.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH21",
+      "country": "Ghana",
+      "title": "An anonymous surprise delivery becomes a wallet-code request",
+      "record_type": "secondhand_family_account",
+      "verification_status": "reported_not_independently_verified",
+      "channels": [
+        "voice_call"
+      ],
+      "summary": "A family account says a caller described an anonymous food delivery and requested a code as identity confirmation; the code was reportedly shared and funds were lost.",
+      "reported_outcome": "Amount unspecified; wallet loss alleged.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP004",
+          "FP005"
+        ],
+        "behaviour_tactic_ids": [
+          "BT004",
+          "BT009"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action",
+        "loss"
+      ],
+      "evidence": {
+        "source_summary": "MyNewsGH family account and embedded Instagram video; video not independently reviewed.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH22",
+      "country": "Ghana",
+      "title": "A cancelled agent transaction returns with a substituted cash bundle",
+      "record_type": "agent_association_account",
+      "verification_status": "reported_not_independently_verified",
+      "channels": [
+        "physical_agent_outlet"
+      ],
+      "summary": "An agent-association account describes a returned cash bundle whose denominations were allegedly substituted after a transaction cancellation.",
+      "reported_outcome": "GHS 10,000 reported exposure; exact net loss not independently reconciled.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP011"
+        ],
+        "behaviour_tactic_ids": [
+          "BT005",
+          "BT009"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action",
+        "loss"
+      ],
+      "evidence": {
+        "source_summary": "MoMAG account reported by Citi Newsroom; no named victim, provider ledger or court outcome.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH23",
+      "country": "Ghana",
+      "title": "A purported public loan application requests the MoMo PIN",
+      "record_type": "official_warning_or_disavowal",
+      "verification_status": "official_or_court_documented",
+      "channels": [
+        "social_media",
+        "website_or_form"
+      ],
+      "summary": "A false public loan advertisement using a programme identity links to a form requesting personal details including a MoMo PIN; the programme disavows it.",
+      "reported_outcome": "No verified loss or victim count.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP004",
+          "FP005"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT004",
+          "BT009"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "action",
+        "loss"
+      ],
+      "evidence": {
+        "source_summary": "24H+ Secretariat official warning; credential-harvesting campaign, not proof of completed takeover.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    },
+    {
+      "case_id": "GH24",
+      "country": "Ghana",
+      "title": "A recorded fake MTN call is challenged before its wallet story succeeds",
+      "record_type": "reported_attempt",
+      "verification_status": "reported_not_independently_verified",
+      "channels": [
+        "voice_call",
+        "sms"
+      ],
+      "summary": "A caller claiming to be an MTN call centre alleges a mistaken transfer and blocked wallet; the target challenges the story and no fraud-induced transfer is established.",
+      "reported_outcome": "No fraud-induced loss established; GHS 100 offered voluntarily, not counted as loss.",
+      "taxonomy_links": {
+        "fraud_pattern_ids": [
+          "FP001",
+          "FP002",
+          "FP003"
+        ],
+        "behaviour_tactic_ids": [
+          "BT001",
+          "BT002",
+          "BT007"
+        ]
+      },
+      "lifecycle_observed": [
+        "contact",
+        "conversation",
+        "manipulation",
+        "loss"
+      ],
+      "evidence": {
+        "source_summary": "YEN.com.gh report of audio exchange; audio authenticity and completeness not independently established.",
+        "source_url": null,
+        "source_access_note": "Use the original Case Study Library PDF for the source list and linked references. No URL is fabricated here."
+      },
+      "limitations": [
+        "A case record is not proof that every person, phone number, wallet or provider mentioned is malicious.",
+        "Do not infer missing transaction steps, credential use or attacker identity."
+      ]
+    }
+  ]
+}
